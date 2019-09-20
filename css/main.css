@@ -13,8 +13,8 @@ header, main, footer {
 }
 #page-header, #page-footer {
     background-color: aqua;
-    border-radius: 15px;
+    border-radius: 5px;
 }
-.fancy {
+#fancy {
     font-family: 'Homemade Apple', script;
 }
