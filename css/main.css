@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,900i&display=swap');
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -16,5 +15,5 @@ header, main, footer {
     border-radius: 5px;
 }
 #fancy {
-    font-family: 'Homemade Apple', script;
+    font-style: 'Raleway 900';
 }
