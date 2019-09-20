@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,900i&display=swap');
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'RalewayLight', sans-serif;
     font-size: 18px;
     line-height: 1.5;
 }
@@ -14,6 +14,6 @@ header, main, footer {
     background-color: aqua;
     border-radius: 5px;
 }
-#fancy {
-    font-style: 'Raleway 900';
+.fancy {
+    font-family: 'RalewayBlackItalic', 'Arial Black', sans-serif;
 }
