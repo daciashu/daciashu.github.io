@@ -15,6 +15,6 @@ header, main, footer {
     background-color: aqua;
     border-radius: 25px;
 }
-#fancy {
+.fancy {
     font-family: 'Homemade Apple', script;
 }
