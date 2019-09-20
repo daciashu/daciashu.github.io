@@ -11,13 +11,10 @@ header, main, footer {
     margin: 1.25rem auto;
     max-width: 760px;
 }
-
+#page-header, #page-footer {
+    background-color: aqua;
+    border-radius: 25px;
+}
 #fancy {
     font-family: 'Homemade Apple', script;
-}
-
-header, footer {
-    border-radius: 25px;
-    background-color: #B4F2F1
-    padding: 15px;
 }
