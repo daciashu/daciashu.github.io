@@ -16,3 +16,8 @@ header, main, footer {
 .fancy {
     font-family: 'Raleway', sans-serif;
 }
+#picture {
+    float: right;
+    margin: 10px;
+    border: thin;
+}
