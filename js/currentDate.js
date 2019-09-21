@@ -37,6 +37,6 @@ try {
         year: "numeric",
     };
     document.getElementById("currentDate2").textContent = new Date().toLocaleDateString("en-us", options); 
-} catch () {
+} catch (e) {
     alert("Error with code or your browser does not support locale");
 }
