@@ -17,7 +17,8 @@ header, main, footer {
     font-family: 'Raleway', sans-serif;
 }
 #picture {
+    position: absolute;
     float: right;
     top: 5px;
-    border: solid thick;
+    box-shadow: 1em;
 }
