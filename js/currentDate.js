@@ -28,3 +28,15 @@ let year = d.getFullYear();
 let fulldate = dayName + " , " + monthName + " " + d.getDate() +", " + year;
 
 document.getElementById('currentDate').textcontent = fulldate;
+
+try {
+    let options = {
+        weekday: "long",
+        day: "numeric",
+        month: "long",
+        year: "numeric",
+    };
+    document.getElementById("currentDate2").textContent = new Date().toLocaleDateString("en-us", options); 
+} catch () {
+    alert("Error with code or your browser does not support locale");
+}
