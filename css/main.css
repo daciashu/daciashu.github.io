@@ -13,6 +13,8 @@ header, main, footer {
 #page-header, #page-footer {
     background-color: #19647e;
     border-radius: 5px;
+    align-content: space-around;
+    space-around: 5px;
 }
 #page-footer {
     font-color: #fcf7ff;
