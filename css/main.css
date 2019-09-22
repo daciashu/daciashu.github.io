@@ -16,6 +16,7 @@ header, main, footer {
 }
 #page-footer {
     font-color: #fcf7ff;
+    font-padding: .5em;
 }
 .fancy {
     font-family: 'Raleway', sans-serif;
