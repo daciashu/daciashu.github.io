@@ -16,11 +16,16 @@ header, main, footer {
     align-content: space-around;
 }
 #page-footer {
-    font-color: #ffffff
+    font-size: small;
+        color: #ffffff;
 }
 .fancy {
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
+}
+.fancy2 {
+    font-family: 'Raleway', sans-serif;
+    color: #19647e;
 }
 #picture {
     position: absolute;
