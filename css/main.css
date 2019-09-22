@@ -3,6 +3,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 1.5;
+    background-color: #fcf7ff;
 }
 
 header, main, footer {
@@ -10,7 +11,7 @@ header, main, footer {
     max-width: 760px;
 }
 #page-header, #page-footer {
-    background-color: aqua;
+    background-color: #19647e;
     border-radius: 5px;
 }
 .fancy {
