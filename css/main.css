@@ -16,6 +16,7 @@ header, main, footer {
 }
 .fancy {
     font-family: 'Raleway', sans-serif;
+    color: #fcf7ff;
 }
 #picture {
     position: absolute;
