@@ -3,7 +3,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 1.5;
-    background-color: #fcf7ff;
+    background-color: #e7e3e9;
 }
 
 header, main, footer {
@@ -14,15 +14,13 @@ header, main, footer {
     background-color: #19647e;
     border-radius: 5px;
     align-content: space-around;
-    space-around: 5px;
 }
 #page-footer {
-    font-color: #fcf7ff;
-    font-padding: .5em;
+    font-color: #ffffff
 }
 .fancy {
     font-family: 'Raleway', sans-serif;
-    color: #fcf7ff;
+    color: #ffffff;
 }
 #picture {
     position: absolute;
