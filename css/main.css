@@ -10,10 +10,12 @@ h1 {
     font-family: 'Anton', sans-serif;
     color: #ffffff;
     line-height: 2em;
+    padding: 2%;
 }
 h2 {
     font-family: 'Anton', sans-serif;
     color: #19647e;
+    padding: 2%;
 }
 header, main, footer {
     margin: 1.25rem auto;
