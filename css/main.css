@@ -14,20 +14,6 @@ h2 {
     font-family: 'Anton', sans-serif;
     color: #19647e;
 }
-nav {
-    font-size: 1em;
-        line-height: 1.5em;
-}
-nav a:hover {
-    color: #19647e;
-    text-decoration: none;
-    border-radius: 5px;
-    box-shadow: 3px 3px 3px #13293d;
-}
-nav li {
-    font-size: .5em;
-    display: inline-block;
-}
 header, main, footer {
     margin: 1.25rem auto;
     max-width: 760px;
@@ -35,7 +21,6 @@ header, main, footer {
 #page-header, #page-footer {
     background-color: #19647e;
     border-radius: 5px;
-    align-content: space-around;
 }
 #page-footer {
     font-size: .5em;
