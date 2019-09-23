@@ -28,6 +28,7 @@ header, main, footer {
 #page-footer {
     color: #ffffff;
     text-align: center;
+    font-size: small;
 }
 header img {
    float: top right;
