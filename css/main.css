@@ -20,6 +20,7 @@ h2 {
 header, main, footer {
     margin: 1.25rem auto;
     max-width: 760px;
+    text-align: center;
 }
 header img {
     max width: 200px;
@@ -34,7 +35,6 @@ header img {
 }
 #page-footer {
     color: #ffffff;
-    text-align: center;
     font-size: .6em;
 }
 
