@@ -29,6 +29,7 @@ header, main, footer {
 }
 header img {
    float: right;
+   top: 2%;
    max-width: 200px;
    margin: 15px;
    border-radius: 0 15px 0 0;
