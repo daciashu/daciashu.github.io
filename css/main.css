@@ -30,7 +30,7 @@ header, main, footer {
 }
 header img {
    float: right;
-   overflow: auto;
+   margin: 10px;
    max-width: 200px;
    box-shadow: 0px 0px 29px -4px rgba(0, 0, 0, 0.75);
 }
