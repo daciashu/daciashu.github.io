@@ -22,9 +22,11 @@ header, main, footer {
     max-width: 760px;
 }
 header img {
+    max width: 200px;
+    height: auto;
     float: right;
-    margin: 10px;
     box-shadow: 0px 0px 29px -4px rgba(0, 0, 0, 0.75);
+    border-radius: 0 10px 0 0;
  }
 #page-header, #page-footer {
     background-color: #19647e;
