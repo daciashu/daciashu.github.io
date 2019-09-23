@@ -38,8 +38,9 @@ header, main, footer {
     align-content: space-around;
 }
 #page-footer {
-    font-size: small;
-        color: #ffffff;
+    font-size: .5em;
+    color: #ffffff;
+    text-align: center;
 }
 header img {
    float: right;
