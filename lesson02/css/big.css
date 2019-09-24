@@ -2,7 +2,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-main {
+#content {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     font-size: .8em;
