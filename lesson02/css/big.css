@@ -10,7 +10,7 @@
 .gridarea {
     grid-template-areas: 
         "header header header"
-        "section section section"
+        "main main main"
         "footer footer footer";
 }
 body {
