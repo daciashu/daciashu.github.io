@@ -22,7 +22,7 @@ h2 {
 }
 header, main, footer {
     margin: 1.25rem auto;
-    max-width: 760px;
+    max-width: 900px;
 }
 header img {
     max width: 200px;
