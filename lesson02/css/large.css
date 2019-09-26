@@ -2,6 +2,9 @@
     #content {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    header img {
+        float: right;
+    }
 }
 
 
