@@ -5,7 +5,6 @@
 #content {
     display: grid;
     grid-template-columns: 1fr;
-    -ms-grid-column-align: center; 
     padding: 10px;
     font-size: .7em;
 }
