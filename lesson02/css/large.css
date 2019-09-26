@@ -5,7 +5,8 @@
 #content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 5px;
+    align-content: center;
+    padding: 10px;
     font-size: .7em;
 }
 .gridarea {
