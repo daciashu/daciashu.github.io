@@ -5,9 +5,7 @@
 #content {
     display: grid;
     grid-template-columns: 1fr;
-    -ms-grid-column-align: center;
-    border: thin;  
-    box-shadow: 0px 0px 29px -4px rgba(0, 0, 0, 0.75);
+    -ms-grid-column-align: center; 
     padding: 10px;
     font-size: .7em;
 }
