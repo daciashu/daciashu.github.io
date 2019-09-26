@@ -42,9 +42,10 @@ header img {
     height: 93%;
     box-shadow: 0px 0px 29px -4px rgba(0, 0, 0, 0.75);
 }
-/*img {
+img {
     padding: 2%;
-}*/
+    justify-content: center;
+}
 #page-header, #page-footer {
     background-color: #19647e;
     border-radius: 5px;
