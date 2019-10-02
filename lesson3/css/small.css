@@ -1,0 +1,23 @@
+nav {
+    background-color: #EFEFF0;
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav a {
+    display: block;
+    color: #485665;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+nav a:hover {
+    background-color: #2e2e3a;
+    color: #485665;
+}
