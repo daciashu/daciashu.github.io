@@ -1,5 +1,23 @@
+header, footer {
+    background-color: #bbc7ce;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+header, nav, main, footer {
+    max-width: 767px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 2 rem;
+}
+h2 {
+    color: #ffdc51;
+}
 nav {
-    background-color: #EFEFF0;
+    background-color: #efeff0;
     text-align: center;
     box-shadow: 0 2px 15px gray;
 }
@@ -20,4 +38,26 @@ nav a {
 nav a:hover {
     background-color: #2e2e3a;
     color: #485665;
+}
+.active {
+    color: #ffdc51;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+}
+main article {
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0 1rem;
+    background-color: #efeff0;
+}
+main picture {
+    display: none;
+    margin: 0.5rem;
+}
+footer {
+    flex: 0 1 100%;
+    height: 2 rem;
 }
