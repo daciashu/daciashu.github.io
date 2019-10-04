@@ -1,21 +1,17 @@
 @media only screen and (min-width: 37.5em) {
-    nav up {
-        display: flex;
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        text-align: center;
     }
     nav a {
         font-size: 1 rem;
     }
-    main {
-        grid-template-columns: 1fr 1fr;
-    }
     article:nth-child(3) {
-        grid-column: span 2;
-    }
-    main picture {
-        display: block;
+        grid-column: span 1;
     }
     main picture img {
-        width: 100%;
+        width: 100px;
         height: auto;
         border: 1px solid #bbb;
     }
