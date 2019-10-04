@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico|Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Poppins&display=swap');
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -17,7 +17,7 @@ header, nav, main, footer {
     margin: 0 auto;
 }
 h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Berkshire Swash', cursive;
     font-size: 2 rem;
 }
 h2 {
