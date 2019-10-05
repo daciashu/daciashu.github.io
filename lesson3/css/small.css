@@ -72,7 +72,7 @@ main picture {
     margin: 0.5rem;
     vertical-align: center;
 }
-footer {
+#page-footer {
     flex: 0 1 100%;
     height: 2rem;
     font-size: .6em;
