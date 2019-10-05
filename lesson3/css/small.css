@@ -7,6 +7,7 @@ body {
 }
 header, footer {
     background-color: #083d77;
+    justify-content: center;
 }
 header, nav, main, footer {
     max-width: 900px;
