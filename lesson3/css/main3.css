@@ -4,8 +4,9 @@ header {
     font-family: 'Berkshire Swash', cursive;
     text-align: center;
     margin: auto;
-    color: #274060;
+    color: #f9f9f9;
     font-size: 1rem;
+    background-color: #274060;
 }
 body {
     max-width: 900px;
