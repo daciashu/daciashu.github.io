@@ -14,7 +14,7 @@ header, footer {
 }
 header, nav, main, footer {
     max-width: 900px;
-    margin: 0 auto;
+    margin: 1.25rem auto;
 }
 h1 {
     font-family: 'Berkshire Swash', cursive;
@@ -73,6 +73,5 @@ main picture {
     vertical-align: center;
 }
 #page-footer {
-    height: 2rem;
     font-size: .6em;
 }
