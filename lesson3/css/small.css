@@ -7,11 +7,6 @@ body {
 }
 header, footer {
     background-color: #083d77;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
 }
 header, nav, main, footer {
     max-width: 900px;
@@ -75,7 +70,9 @@ main picture {
     vertical-align: center;
 }
 #page-footer {
+    color: #efeff0;
     font-size: .6em;
+    text-align: center;
 }
 .gridArea {
     grid-template-areas: 
