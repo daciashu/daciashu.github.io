@@ -6,13 +6,13 @@
     }
     nav a {
         font-size: 1 rem;
-        
+
     }
     article:nth-child(3) {
         grid-column: span 1;
     }
     main picture img {
-        width: 100px;
+        width: 50px;
         height: auto;
         border: 1px solid #bbb;
     }
