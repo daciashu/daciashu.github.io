@@ -54,11 +54,12 @@ nav a:hover {
 .active {
     color: #efeff0;
 }
-main {
+#content {
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
     font-size: 0.8rem;
+    padding: 10px;
 }
 main article {
     margin: 0.5rem;
