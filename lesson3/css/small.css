@@ -5,7 +5,7 @@ body {
     line-height: 1.5em;
 }
 header, footer {
-    background-color: #bbc7ce;
+    background-color: #efeff0;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -27,7 +27,7 @@ h2 {
     color: #ffdc51;
 }
 nav {
-    background-color: #efeff0;
+    background-color: #a6f5ff;
     text-align: center;
     box-shadow: 0 2px 15px gray;
     font-family: 'Poppins', sans-serif;
@@ -44,14 +44,14 @@ nav a {
     padding: 0.75rem;
     text-decoration: none;
     font-size: 0.95rem;
-    color: #485665;
+    color: #2e2e3a;
 }
 nav a:hover {
     background-color: #2e2e3a;
-    color: #485665;
+    color: #ffdc51;
 }
 .active {
-    color: white;
+    color: #efeff0;
 }
 main {
     display: grid;
@@ -63,7 +63,7 @@ main article {
     margin: 0.5rem;
     border-style: outset;
     border-width: .15rem;
-    border-color: #bbb;
+    border-color: #2e2e3a;
     padding: 0 1rem;
     background-color: #efeff0;
 }
