@@ -13,7 +13,7 @@ header, footer {
     padding: 10px;
 }
 header, nav, main, footer {
-    max-width: 767px;
+    max-width: 900px;
     margin: 0 auto;
 }
 h1 {
