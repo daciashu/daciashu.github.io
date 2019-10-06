@@ -61,7 +61,7 @@ footer a {
     color: #f9f9f9;
 }
 .personas {
-    max-width: 20%;
+    max-width: 25%;
 }
 .list {
     text-align: left;
@@ -85,6 +85,13 @@ td {
     background-color: #585563;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
+}
+#targets {
+    text-align: center;
+}
+#targets2 {
+    display: inline-block;
+    text-align: left;
 }
 
 /* tablet */
