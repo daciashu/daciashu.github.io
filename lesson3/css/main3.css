@@ -66,6 +66,26 @@ footer a {
 .list {
     text-align: left;
 }
+table {
+    max-width: 80%;
+    box-shadow: 0px 0px 15px -4px #585563;
+}
+th, td {
+    padding: 5px 8px 8px 8px;
+}
+th {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    background-color: #f9f9f9;
+    color: #585563;
+}
+td {
+    color: #f9f9f9;
+    background-color: #585563;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
 
 /* tablet */
 @media only screen and (min-width: 37.5em) {
