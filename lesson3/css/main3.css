@@ -62,6 +62,9 @@ footer a {
 .personas {
     max-width: 20%;
 }
+.list {
+    text-align: left;
+}
 
 /* tablet */
 @media only screen and (min-width: 37.5em) {
