@@ -64,10 +64,9 @@ footer a {
     max-width: 25%;
 }
 table {
+    margin: auto;
     max-width: 80%;
     box-shadow: 0px 0px 15px -4px #585563;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 th, td {
     padding: 5px 8px 8px 8px;
