@@ -3,7 +3,7 @@ function toggleMenu() {
 }
 
 try {
-    var currentDate = new Date;
+    var theDate = new Date;
     var options = {
         weekday: "long",
         day: "numeric",
