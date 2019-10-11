@@ -3,7 +3,10 @@
 
     main {
         min-height: 300px;
-            align-content: center;
+        align-content: center;
+    }
+    header img {
+        width: 80%;
     }
     .navigation {
         display: flex;
