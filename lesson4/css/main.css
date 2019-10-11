@@ -70,7 +70,7 @@ main {
     color: #585563;
 }
 .wrapper {
-    display: flex;
+    display: block;
 }
 .wrapper > div {
 	border-radius: 5px;
