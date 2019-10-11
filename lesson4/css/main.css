@@ -14,7 +14,6 @@ header {
     justify-content: center;
 }
 body {
-    max-width: 900px;
     text-align: center;
     margin: 0 auto;
     background-color: #f9f9f9;
@@ -76,9 +75,12 @@ main {
 	padding: 1em;
 }
 .box1, .box3 {
-	background-color: #bcf7ff;
+    display: block;
+    background-color: #bcf7ff;
+    
 }
 .box2, .box4 {
+    display: block;
 	background-color: #585563;
 	color: #f9f9f9;
 }
