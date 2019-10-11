@@ -8,6 +8,10 @@
     header img {
         width: 80%;
     }
+    body {
+        margin-right: auto;
+        margin-left: auto;
+    }
     .navigation {
         display: flex;
     }
