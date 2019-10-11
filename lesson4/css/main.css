@@ -4,9 +4,13 @@ header {
     font-family: 'Berkshire Swash', cursive;
     text-align: center;
     margin: 0 auto;
+    padding: 5px 0;
+    display: flex;
     color: #f9f9f9;
     font-size: 1rem;
     background-color: #585563;
+    align-items: center;
+    justify-content: center;
 }
 body {
     max-width: 900px;
