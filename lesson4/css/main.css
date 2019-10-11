@@ -13,11 +13,12 @@ header {
     justify-content: center;
 }
 body {
+    display: flex;
     max-width: 900px;
     text-align: center;
     margin: 0 auto;
     background-color: #f9f9f9;
-		justify-content: center;
+	justify-content: center;
 }
 nav {
     margin: 0 auto;
