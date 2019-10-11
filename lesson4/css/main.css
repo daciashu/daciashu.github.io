@@ -26,9 +26,10 @@ nav {
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
-header img {
-    width: 80px;
+img {
+    max-width: 80px;
     height: auto;
+    
 }
 nav ul {
     list-style: none;
