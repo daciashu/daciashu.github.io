@@ -2,10 +2,10 @@
 /* baseline view */
 header {
     font-family: 'Berkshire Swash', cursive;
+    display: flex;
     text-align: center;
     margin: 0 auto;
     padding: 5px 0;
-    display: flex;
     color: #f9f9f9;
     font-size: 1rem;
     background-color: #585563;
@@ -64,7 +64,7 @@ main {
     color: #585563;
 }
 .wrapper {
-	display: flex:
+    display: flex:
 }
 .wrapper > div {
 	border-radius: 5px;
