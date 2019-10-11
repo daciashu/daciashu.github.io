@@ -23,7 +23,7 @@ body {
 nav {
     margin: 0 auto;
     max-width: 900px;
-		background-color: #274060;
+	background-color: #274060;
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
@@ -65,7 +65,7 @@ main {
     color: #585563;
 }
 .wrapper {
-    display: flex:
+    display: flex;
 }
 .wrapper > div {
 	border-radius: 5px;
