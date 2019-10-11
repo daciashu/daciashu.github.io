@@ -3,6 +3,7 @@
 header {
     font-family: 'Berkshire Swash', cursive;
     display: flex;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
     padding: 5px 0;
