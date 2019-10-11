@@ -1,0 +1,47 @@
+/* media query for medium screens*/
+@media only screen and (min-width: 37.5em) {
+
+    main {
+        min-height: 300px;
+            align-content: center;
+    }
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    nav a {
+        font-size: 1rem;
+    }
+    .wrapper {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 100px 100px 100px 100px;
+        grid-gap: 10px;
+        }
+    .box1 {
+        grid-column: 1 / 5;
+        grid-row: 1;
+    }
+    .weatherSummary {
+        grid-column: 1;
+        grid-row: 1;
+        }
+    .box2 {
+        grid-column: 1 / 5;
+        grid-row: 2;
+        }
+    .box3 {
+        grid-column: 1 / 5;
+        grid-row: 3;
+        }
+     .box4 {
+        grid-column: 1 / 5;
+        grid-row: 4;
+    }
+    }
+    
+    
