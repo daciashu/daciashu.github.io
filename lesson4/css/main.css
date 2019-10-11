@@ -30,7 +30,8 @@ img {
     max-width: 80%;
 }
 nav ul {
-		list-style: none;
+    list-style: none;
+    margin: 0;
     padding: 0;
 }
 nav ul li a {
