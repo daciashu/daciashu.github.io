@@ -79,19 +79,20 @@ main {
 }
 .box1, .box3 {
     background-color: #bcf7ff;
+    padding: 5px;
     
 }
 .box2, .box4 {
 	background-color: #585563;
-	color: #f9f9f9;
+    color: #f9f9f9;
+    padding: 5px;
 }
 .weatherSummary {
 	background-color: #ffdc51;
-	
-	
 }
 footer {
     font-family: 'Poppins', sans-serif;
+    max-width: 900px;
     padding: 20px;
     background-color: #274060;
     color: #f9f9f9;
