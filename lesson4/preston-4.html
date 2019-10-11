@@ -1,49 +1,57 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Weather Site Project by Dacia Shumate - CIT230: Web Frontend Development - BYUI - Fall 2019">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-        <link href="css/main.css" rel="stylesheet">
 
-        <title>Weather Site</title>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Weather Site Project by Dacia Shumate - CIT230: Web Frontend Development - BYUI - Fall 2019">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="css/main.css" rel="stylesheet">
 
-    <body>
-        <header>
-                    <img src="images/weather-logo.jpg" class="logo" alt="logo">
-                <h1>Weather Wise</h1>
-                <h2>Where you go to check the weather</h2>
-        </header>
-        <nav>
-            <ul class="navigation responsive">
-                        <li><a href="0" onclick="toggleMenu()">&#9776;Menu</a></li>
-                        <li><a href="1">Home</a></li>
-                        <li><a href="2" class="active">Preston</a></li>
-                        <li><a href="3">Soda Springs</a></li>
-                        <li><a href="4">Fish Haven</a></li>
-                        <li><a href="5">Storm Center</a></li>
-                        <li><a href="6">Gallery</a></li>
-            </ul>
-        </nav> 
-            <main> 
-							<h1>Preston, Idaho</h1>
-                <section>
-									<div class="wrapper">
-									<div class="box1">Hero Image</div>
-									<div class="weatherSummary">Weather Summary</div>
-									<div class="box2">5 Day Forcast</div>
-									<div class="box3">Article</div>
-									<div class="box4">Contact Information</div>
-									</div>
-                </section>
-            </main>
-            <footer>
-                &copy; <span id="currentYear">2019</span> | Dacia Shumate | South Carolina | <a href="https://daciashu.github.io/">Assignment Portal</a> | 
-                <br><span id="theDate">Today's Date:</span>
-            </footer>
-            <div><script src="js/currentYear.js"></script></div>
-            <div><script src="js/preston.js"></script></div>
-    </body>
+    <title>Weather Site</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/weather-logo.jpg" class="logo" alt="logo">
+        <h1>Weather Wise</h1>
+        <h2>Where you go to check the weather</h2>
+    </header>
+    <nav>
+        <ul class="navigation responsive">
+            <li><a href="0" onclick="toggleMenu()">&#9776;Menu</a></li>
+            <li><a href="1">Home</a></li>
+            <li><a href="2" class="active">Preston</a></li>
+            <li><a href="3">Soda Springs</a></li>
+            <li><a href="4">Fish Haven</a></li>
+            <li><a href="5">Storm Center</a></li>
+            <li><a href="6">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Preston, Idaho</h1>
+        <section>
+            <div class="wrapper">
+                <div class="box1">Hero Image</div>
+                <div class="weatherSummary">Weather Summary</div>
+                <div class="box2">5 Day Forcast</div>
+                <div class="box3">Article</div>
+                <div class="box4">Contact Information</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; <span id="currentYear">2019</span> | Dacia Shumate | South Carolina | <a
+            href="https://daciashu.github.io/">Assignment Portal</a> |
+        <br><span id="theDate">Today's Date:</span>
+    </footer>
+    <div>
+        <script src="js/currentYear.js"></script>
+    </div>
+    <div>
+        <script src="js/preston.js"></script>
+    </div>
+</body>
+
 </html>
