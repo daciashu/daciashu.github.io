@@ -42,6 +42,9 @@ nav ul li a {
 	font-size: 0.95rem;
 	text-decoration: none;
 }
+.headerTitle {
+    padding: 10px;
+}
 .navigation li {
     display: none;
 }
