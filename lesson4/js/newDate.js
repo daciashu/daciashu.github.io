@@ -27,4 +27,4 @@ let monthName = months[d.getMonth()];
 let year = d.getFullYear();
 let fulldate = dayName + " , " + monthName + " " + d.getDate() +", " + year;
 
-document.getElementById('currentDate').textcontent = fulldate;
+document.getElementById('currentDate').textcontent = "Today's Date:" + fulldate;
