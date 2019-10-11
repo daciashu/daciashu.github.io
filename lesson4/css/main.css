@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Poppins&display=swap');
 /* baseline view */
 header {
+	  margin: 0 auto;
     font-family: 'Berkshire Swash', cursive;
     text-align: center;
     margin: 0 auto;
@@ -11,13 +12,13 @@ header {
 body {
     max-width: 900px;
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
     background-color: #f9f9f9;
 }
 nav {
     margin: 0 auto;
     max-width: 900px;
-	background-color: #274060;
+		background-color: #274060;
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
@@ -25,7 +26,7 @@ img {
     max-width: 80%;
 }
 nav ul {
-	list-style-type: none;
+		list-style-type: none;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -37,7 +38,7 @@ nav ul {
     display: block;
 }
 nav li a {
-    padding: 20px;
+  padding: 20px;
 	display: block;
 	color: #f9f9f9;
 	text-align: center;
@@ -99,26 +100,32 @@ nav a {
 }
 .wrapper {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 100px 100px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 100px 100px 100px;
 	grid-gap: 10px;
 	}
 .box1 {
-	grid-column: 2 / 3;
+	grid-column: 2 / 4;
 	grid-row: 1;
 }
 .box2 {
 	grid-column: 2;
-	grid-row: 2 / 4;
+	grid-row: 2 / 5;
 	}
 .box3 {
-	grid-column: 3;
-	grid-row: 3;
+	grid-column: 3 / 5;
+	grid-row: 2 / 5;
 	}
  .box4 {
-	grid-column: 3;
-	grid-row: 2;
+	grid-column: 4;
+	grid-row: 1;
 }
+	footer {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 50px;
+		
+	}
 
 }
 
