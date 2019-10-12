@@ -11,8 +11,8 @@
         margin-right: auto;
         margin-left: auto;
     }
-    nav li:first-child {
-        display: none;
+    nav a {
+        font-size: 1rem;
     }
     .navigation {
         display: flex;
@@ -21,9 +21,8 @@
         display: block;
         flex: 1 1 100%;
     }
-    
-    nav a {
-        font-size: 1rem;
+    .navigation li:first-child {
+        display: none;
     }
     .wrapper {
         justify-content: center;
