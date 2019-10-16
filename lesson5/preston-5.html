@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Weather Site Project by Dacia Shumate - CIT230: Web Frontend Development - BYUI - Fall 2019">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/medium4.css" rel="stylesheet">
+    <link href="css/large4.css" rel="stylesheet">
+
+    <title>Weather Site</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/weather-logo.jpg" class="logo" alt="Weather Wise Logo">
+        <h1 class="headerTitle">Weather Wise</h1>
+        <p class="headerTitle2">Where you go to check the weather</p>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Preston, Idaho</h1>
+            <div class="wrapper">
+                <div class="box1">Hero Image</div>
+                <div class="weatherSummary">Weather Summary</div>
+                <div class="box2">5 Day Forcast</div>
+                <div class="box3">Article</div>
+                <div class="box4">Contact Information</div>
+            </div>
+    </main>
+    <footer>
+        &copy; <span id="currentYear">2019</span> | Dacia Shumate | South Carolina | <a
+            href="https://daciashu.github.io/">Assignment Portal</a> |
+        <br><div id="currentDate">
+            <script src="js/newDate.js"></script>
+        </div>
+    </footer>
+        <div><script src="js/currentYear.js"></script><script src="js/preston.js"></script></div>
+</body>
+</html>
