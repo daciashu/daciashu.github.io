@@ -24,6 +24,9 @@
     .navigation li:first-child {
         display: none;
     }
+    .active {
+        font-size: 1.5rem;
+    }
     .wrapper {
         justify-content: center;
         display: grid;

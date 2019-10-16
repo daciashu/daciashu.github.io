@@ -63,7 +63,8 @@ nav a:hover {
 	color: #585563;
 }
 .active {
-	color: #ffdc51;
+    color: #ffdc51;
+    background-color: #585563;
 }
 main {
     font-size: 1rem;
