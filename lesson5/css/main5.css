@@ -2,7 +2,7 @@
 /* baseline view */
 header {
     font-family: 'Berkshire Swash', cursive;
-    display: flex;
+    display: block;
     width: 100%;
     text-align: center;
     margin: 0 auto;
