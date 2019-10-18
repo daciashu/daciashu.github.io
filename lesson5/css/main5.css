@@ -116,22 +116,19 @@ main {
 }
 .forcast-table {
     margin: 0 auto;
-    width: 50%;
-    height: auto;
-    align: center;
-    justify-content: center;
+    text-align: center;
+    border-spacing: 5px;
+    border: solid 1px #585563;
 }
 th {
     color: #585563;
     background-color: #bcf7ff;
     padding: 10px;
-    border: thin #585563;
 }
 td {
     color: #585563;
     background-color: #f9f9f9;
     padding: 10px;
-    border: thin #585563;
 }
 .socialLogo {
     max-width: 20px;
