@@ -104,11 +104,8 @@ main {
     margin: 1rem;
     padding: 10px;
 }
-.box3 {
-    display: flex;
-    background-color: #bcf7ff;  
-}
 .box2 {
+    display: none;
     color: #585563;
 }
 .forecast-table {
@@ -125,6 +122,14 @@ th {
 td {
     color: #585563;
     background-color: #f9f9f9;
+    padding: 10px;
+}
+.box3 {
+    display: flex;
+    background-color: #bcf7ff;  
+}
+.star-article {
+    text-align: left;
     padding: 10px;
 }
 .box4 {
