@@ -51,9 +51,9 @@
 }
 .forecast-table {
     margin: 0 auto;
+    justify-content: center;
     text-align: center;
     border-spacing: 5px;
-    border: solid 1px #585563;
 }
 th {
     color: #585563;
