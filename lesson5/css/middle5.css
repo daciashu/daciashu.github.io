@@ -72,6 +72,7 @@ td {
     display: flex;
 }
 .box4 img {
+    display: flex;
     padding: 10px;
 }
    /* .box3 {
