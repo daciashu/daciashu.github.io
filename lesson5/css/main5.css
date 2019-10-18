@@ -94,8 +94,12 @@ main {
 	background-color: #585563;
     color: #f9f9f9;
 }
+.heroBanner {
+    position: relative;
+}
 .weatherSummary {
-	background-color: #ffdc51;
+    background-color: #ffdc51;
+    position: absolute;
 }
 footer {
     font-family: 'Poppins', sans-serif;
