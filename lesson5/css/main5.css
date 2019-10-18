@@ -112,10 +112,6 @@ main {
     display: block;
     background-color: #bcf7ff;  
 }
-table.center {
-    margin-left: auto;
-    margin-right: auto;
-}
 .star-article {
     text-align: left;
     padding: 10px;
