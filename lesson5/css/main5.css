@@ -111,17 +111,6 @@ main {
 .box2 {
     color: #585563;
 }
-.box4 {
-    display: flex;
-	background-color: #585563;
-    color: #f9f9f9;
-    text-align: left;
-}
-.box4 img {
-    max-width: 250px;
-    height: auto;
-    padding: 10px;
-}
 .forecast-table {
     margin: 0 auto;
     text-align: center;
@@ -138,11 +127,21 @@ td {
     background-color: #f9f9f9;
     padding: 10px;
 }
+.box4 {
+    display: flex;
+	background-color: #585563;
+    color: #f9f9f9;
+    text-align: left;
+}
+.box4 img {
+    max-width: 33%;
+    padding: 10px;
+}
 .contact-info {
     padding: 10px;
 }
 .socialLogo {
-    max-width: 45px;
+    max-width: 10%;
 }
 footer {
     font-family: 'Poppins', sans-serif;
