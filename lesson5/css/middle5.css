@@ -48,10 +48,10 @@
         }*/
 .box2 {
     color: #585563;
+    justify-content: center;
 }
 .forecast-table {
     margin: 0 auto;
-    justify-content: center;
     text-align: center;
     border-spacing: 5px;
 }
