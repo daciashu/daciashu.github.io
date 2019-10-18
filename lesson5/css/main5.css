@@ -47,7 +47,6 @@ nav ul li a {
 }
 .headerTitle2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.2rem;
 }
 .navigation li {
     display: none;
@@ -98,7 +97,6 @@ main {
     left: 40px;
     background-color: #ffdc51;
     opacity: .7;
-    border: thin #585563;
     padding: 1.5rem;
     box-shadow: 0 0 30px #585563;
 }
@@ -117,6 +115,9 @@ main {
     color: #f9f9f9;
 }
 .forcast-table {
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
     align: center;
     justify-content: center;
 }
@@ -131,6 +132,9 @@ td {
     background-color: #f9f9f9;
     padding: 10px;
     border: thin #585563;
+}
+.socialLogo {
+    max-width: 20px;
 }
 footer {
     font-family: 'Poppins', sans-serif;
