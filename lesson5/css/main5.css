@@ -104,28 +104,8 @@ main {
     margin: 1rem;
     padding: 10px;
 }
-.box2 {
-    display: none;
-    color: #585563;
-}
-.forecast-table {
-    margin: 0 auto;
-    text-align: center;
-    border-spacing: 5px;
-    border: solid 1px #585563;
-}
-th {
-    color: #585563;
-    background-color: #bcf7ff;
-    padding: 10px;
-}
-td {
-    color: #585563;
-    background-color: #f9f9f9;
-    padding: 10px;
-}
 .box3 {
-    display: flex;
+    display: block;
     background-color: #bcf7ff;  
 }
 .star-article {
@@ -133,14 +113,13 @@ td {
     padding: 10px;
 }
 .box4 {
-    display: flex;
+    display: block;
 	background-color: #585563;
     color: #f9f9f9;
     text-align: left;
 }
 .box4 img {
-    max-width: 33%;
-    padding: 10px;
+    display: none;
 }
 .contact-info {
     padding: 10px;
