@@ -83,10 +83,17 @@ main {
 }
 .heroBanner {
     position: relative;
+    margin: 10px auto;
 }
 .weatherSummary {
-    background-color: #ffdc51;
     position: absolute;
+    top: 20px;
+    right: 40px;
+    background-color: #ffdc51;
+    opacity: .7;
+    border: thin #585563;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #585563;
 }
 .box1, .box2, .box3, .box4 {
     margin: 1rem;
