@@ -113,6 +113,7 @@ main {
 .box4 {
 	background-color: #585563;
     color: #f9f9f9;
+    text-align: left;
 }
 .forcast-table {
     margin: 0 auto;
@@ -130,8 +131,11 @@ td {
     background-color: #f9f9f9;
     padding: 10px;
 }
+hr {
+    color: #ffdc51;
+}
 .socialLogo {
-    max-width: 20px;
+    max-width: 45px;
 }
 footer {
     font-family: 'Poppins', sans-serif;
