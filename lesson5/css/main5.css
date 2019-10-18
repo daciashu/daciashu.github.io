@@ -105,6 +105,7 @@ main {
     padding: 10px;
 }
 .box3 {
+    display: flex;
     background-color: #bcf7ff;  
 }
 .box2 {
