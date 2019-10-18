@@ -47,8 +47,11 @@
         grid-row: 2;
         }*/
 .box2 {
+    margin: 0 auto;
     color: #585563;
     justify-content: center;
+    max-width: 920px;
+    padding: 10px;
 }
 .forecast-table {
     margin: 0 auto;
