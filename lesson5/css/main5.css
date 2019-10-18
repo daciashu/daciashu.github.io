@@ -114,3 +114,14 @@ footer a {
     margin: auto;
     padding: 20px;
 }
+tbody {
+    border: thin;
+}
+th {
+    color: #585563;
+    background-color: #bcf7ff;
+}
+td {
+    color: #585563;
+    background-color: #f9f9f9;
+}
