@@ -99,21 +99,6 @@ main {
 	background-color: #585563;
     color: #f9f9f9;
 }
-footer {
-    font-family: 'Poppins', sans-serif;
-    max-width: 900px;
-    padding: 20px;
-    margin: auto;
-    background-color: #274060;
-    color: #f9f9f9;
-}
-footer a {
-    color: #f9f9f9;
-}
-.box1: img {
-    margin: auto;
-    padding: 20px;
-}
 tbody {
     border: thin;
 }
@@ -124,4 +109,15 @@ th {
 td {
     color: #585563;
     background-color: #f9f9f9;
+}
+footer {
+    font-family: 'Poppins', sans-serif;
+    max-width: 900px;
+    padding: 20px;
+    margin: auto;
+    background-color: #274060;
+    color: #f9f9f9;
+}
+footer a {
+    color: #f9f9f9;
 }
