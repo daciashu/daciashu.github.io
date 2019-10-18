@@ -81,6 +81,9 @@ main {
 	border-radius: 5px;
 	padding: 1em;
 }
+.box1, .box2, .box3, .box4 {
+    margin: 1rem;
+}
 .box1, .box3 {
     background-color: #bcf7ff;
     padding: 5px;
