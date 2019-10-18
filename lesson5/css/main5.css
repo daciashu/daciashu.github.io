@@ -106,16 +106,17 @@ main {
 	background-color: #585563;
     color: #f9f9f9;
 }
-tbody {
-    border: thin;
-}
 th {
     color: #585563;
     background-color: #bcf7ff;
+    padding: 5px;
+    border: thin #585563;
 }
 td {
     color: #585563;
     background-color: #f9f9f9;
+    padding: 5px;
+    border: thin #585563;
 }
 footer {
     font-family: 'Poppins', sans-serif;
