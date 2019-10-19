@@ -81,11 +81,11 @@ main {
 }
 .heroBanner {
     position: relative;
+    max-width: 900px;
     margin: 10px auto;
 }
 .heroPic {
     max-width: 100%;
-    height: auto;
 }
 .weatherSummary {
     position: absolute;
