@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Poppins&display=swap');
 /* baseline view */
+#itsFriday {
+    color: 585563;
+    background-color: #ffdc51;
+}
 header {
     font-family: 'Berkshire Swash', cursive;
     display: flex;
