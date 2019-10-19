@@ -1,7 +1,7 @@
 function itsFriday() {
     var d = new Date().getDay();
-    if (d == 3){
-        document.getElementById("itsFriday").style.display = "banner";
+    if (d == 5){
+        document.getElementById("itsFriday").style.display = "block";
     }
     else{
       document.getElementById("itsFriday").style.display = "none";
