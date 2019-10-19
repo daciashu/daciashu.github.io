@@ -27,19 +27,21 @@
     .active {
         font-size: 1.5rem;
     }
-.box2 {
-    display: normal;
-    margin: 0 auto;
-    color: #585563;
-    justify-content: center;
-    max-width: 920px;
-    padding: 10px;
-}
-.forecast-table {
-    margin: 0 auto;
-    text-align: center;
-    border-spacing: 5px;
-}
+    .box2 {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        color: #585563;
+        justify-content: center;
+        max-width: 920px;
+        padding: 10px;
+    }
+    .forecast-table {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        border-spacing: 5px;
+    }
 th {
     color: #585563;
     background-color: #bcf7ff;
@@ -54,14 +56,14 @@ td {
     display: flex;
 }
 .box3pic {
-    display: normal;
+    display: flex;
     padding: 10px;
 }
 .box4 {
     display: flex;
 }
 .preston-map {
-    display: normal;
+    display: flex;
     padding: 10px;
 }
 }
