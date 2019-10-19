@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Poppins&display=swap');
 /* baseline view */
 #itsFriday {
+    display: none;
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     color: #585563;
