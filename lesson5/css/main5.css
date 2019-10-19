@@ -86,6 +86,7 @@ main {
 }
 .heroPic {
     max-width: 100%;
+    overflow: hidden;
 }
 .weatherSummary {
     position: absolute;
