@@ -28,6 +28,7 @@
         font-size: 1.5rem;
     }
 .box2 {
+    display: normal;
     margin: 0 auto;
     color: #585563;
     justify-content: center;
@@ -58,6 +59,10 @@ td {
 }
 .box4 {
     display: flex;
+}
+.preston-map {
+    display: normal;
+    padding: 10px;
 }
 
 /*.wrapper {
