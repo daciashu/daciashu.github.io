@@ -83,8 +83,7 @@ main {
     margin: 10px auto;
 }
 .heroPic {
-    max-width: 900px;
-    height: auto;
+    max-width: 100%;
 }
 .weatherSummary {
     position: absolute;
