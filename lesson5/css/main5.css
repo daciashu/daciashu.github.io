@@ -85,6 +85,7 @@ main {
     margin: 10px auto;
 }
 .heroPic {
+    position: absolute;
     max-width: 100%;
     overflow: hidden;
 }
