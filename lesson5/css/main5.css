@@ -125,6 +125,9 @@ main {
 .contact-info {
     padding: 10px;
 }
+.socialLogo {
+    opacity: .8;
+}
 footer {
     font-family: 'Poppins', sans-serif;
     max-width: 900px;

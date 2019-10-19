@@ -71,6 +71,10 @@ td {
 .box3 {
     display: flex;
 }
+.box3pic {
+    display: normal;
+    padding: 10px;
+}
 .box4 {
     display: flex;
 }
