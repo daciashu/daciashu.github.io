@@ -127,6 +127,7 @@ main {
 }
 .socialLogo {
     opacity: .8;
+    max-width: 100px;
 }
 footer {
     font-family: 'Poppins', sans-serif;
