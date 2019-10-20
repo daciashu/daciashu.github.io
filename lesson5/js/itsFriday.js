@@ -1,10 +1,10 @@
-function itsFriday() {
-    var n = new Date();
-    var d = n.getDay();
-    if (d == 5) {
-        document.getElementById("itsFriday").style.display = "block";
+window.onload = function() {
+    var n = document.getElementById("itsFriday");
+    var d = new Date();
+    if (d.getDate() == 6) {
+        x.style.display = "block";
     }
     else {
-        document.getElementById("itsFriday").style.display = "none";
+        x.style.display = "none";
     }
 }
