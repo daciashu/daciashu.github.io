@@ -1,7 +1,7 @@
 window.onload = function() {
     var n = document.getElementById("itsFriday");
     var d = new Date();
-    if (d.getDate() == 6) {
+    if (d.getDate() == 5) {
         x.style.display = "block";
     }
     else {
