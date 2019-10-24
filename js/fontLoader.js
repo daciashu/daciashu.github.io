@@ -1,4 +1,4 @@
-webkitConvertPointFromNodeToPage.load({
+webFont.load({
     google: {
         families: ['Anton', 'Raleway']
     }
