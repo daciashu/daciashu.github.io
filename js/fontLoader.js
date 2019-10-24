@@ -1,5 +1,5 @@
 webkitConvertPointFromNodeToPage.load({
     google: {
-        families: ['Anton', 'Raleway', 'Berkshire Swash','Poppins']
+        families: ['Anton', 'Raleway']
     }
 });
