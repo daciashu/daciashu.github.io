@@ -70,9 +70,9 @@ nav a:hover {
     color: #585563;
     background-color: #f9f9f9;
 }
-.label {
+/*.label {
     justify-content: right;
-}
+}*/
 main {
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
