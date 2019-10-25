@@ -70,9 +70,6 @@ nav a:hover {
     color: #585563;
     background-color: #f9f9f9;
 }
-/*.label {
-    justify-content: right;
-}*/
 main {
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
@@ -99,6 +96,13 @@ main {
     opacity: .7;
     padding: 1.5rem;
     box-shadow: 0 0 30px #585563;
+}
+.label {
+    text-align: right;
+}
+.wdata {
+    text-align: left;
+    padding: 3px;
 }
 .box1, .box3, .box4 {
     max-width: 920px;
