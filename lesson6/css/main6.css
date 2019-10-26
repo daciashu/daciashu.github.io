@@ -125,8 +125,6 @@ main {
 }
 .preston-map {
     display: none;
-    position: absolute;
-    padding: 2px;
 }
 .contact-info {
     padding: 10px;
