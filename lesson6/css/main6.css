@@ -116,6 +116,7 @@ main {
 }
 .star-heading {
     position: relative;
+    float: right;
 }
 .star-pic {
     position: absolute;
@@ -128,6 +129,7 @@ main {
 }
 .map-heading {
     position: relative;
+    float: left;
 }
 .preston-map {
     display: none;
