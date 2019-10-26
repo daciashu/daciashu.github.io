@@ -28,6 +28,9 @@ header img {
 h1 {
   font-size: 3rem;
 }
+h6 {
+    display: none;
+}
 body {
     text-align: center;
     margin: 0 auto;
@@ -114,20 +117,11 @@ main {
     text-align: left;
     padding: 10px;
 }
-.star-heading {
-    position: relative;
-}
-.star-pic {
-    position: absolute;
-}
 .box4 {
     display: block;
 	background-color: #585563;
     color: #f9f9f9;
     text-align: left;
-}
-.map-heading {
-    position: relative;
 }
 .preston-map {
     display: none;
