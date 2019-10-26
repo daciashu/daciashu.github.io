@@ -3,7 +3,7 @@ function chillyWind() {
     var s = parseFloat(document.getElementById('speed').textContent);
     var f = windChill(t, s);
 
-    document.getElementById("output").textContent = f;
+    document.getElementById("output").innerHTML = f;
 }
 
 function windChill(tempF, speed) {
