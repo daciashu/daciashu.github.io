@@ -133,6 +133,10 @@ main {
     opacity: .8;
     max-width: 10%;
 }
+iframe {
+    width: 400;
+    height: 300
+}
 footer {
     font-family: 'Poppins', sans-serif;
     max-width: 900px;
