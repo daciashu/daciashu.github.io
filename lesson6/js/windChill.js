@@ -1,10 +1,8 @@
-function chillyWind() {
     var t = parseFloat(document.getElementById('tempF').textContent);
     var s = parseFloat(document.getElementById('speed').textContent);
     var f = windChill(t, s);
 
     document.getElementById("f").innerHTML = f;
-}
 
 function windChill(tempF, speed) {
     var s = Math.pow(speed, 0.16);
