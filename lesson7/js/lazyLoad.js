@@ -1,5 +1,4 @@
-const imagesToLoad = document.querySelectorAll("img[data-src]");
-
+const imagesToLoad = document.querySelectorAll('img[data-src]');
 
 const imgOptions = {
     threshold: 0,
@@ -9,9 +8,9 @@ const imgOptions = {
 const loadImages = (images) => {
     image.setAttribute('src', image.getAttribute('data-src'));
     image.onload = () => {
-        image.removeAtttribute('data-src');};
+        image.removeAtttribute('data-src');
     };
-}
+};
 
 if('IntersectionObserver' in window) {
     const imgObserver = new IntersectionObserver((items, observer) => {
