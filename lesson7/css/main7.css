@@ -99,7 +99,7 @@ main {
     background-color: #ffdc51;
     opacity: .9;
     padding: 1.5rem;
-    
+    box-shadow: 0 0 10px #585563;
 }
 .gallery-grid {
     align-content: center;
