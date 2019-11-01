@@ -16,7 +16,8 @@
 </head>
 
 <body>
-    <div id="itsFriday" style="display:none;">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</div>
+    <div id="itsFriday" style="display:none;">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city
+        park pavilion</div>
     <header>
         <div>
             <img src="images/weather-LOGO.png" class="logo" alt="Weather Wise Logo">
@@ -30,16 +31,64 @@
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
             <li><a href="#">Home</a></li>
-            <li><a href="#" class="active">Preston</a></li>
+            <li><a href="#">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
-            <li><a href="#">Gallery</a></li>
+            <li><a href="#" class="active">Gallery</a></li>
         </ul>
     </nav>
     <main>
         <h2>Gallery</h2>
-        
+        <div class="gallery-pics">
+            <picture>
+                <img src="images/placeholder.png" data-src="images/colorful-lightning.jpg"
+                    alt="Lightning filling the sky with colors">
+            </picture>
+            <caption>Summer Lightning Storm</caption>
+            <picture>
+                <img src="images/placeholder.png" data-src="images/dark-clouds.jpg"
+                    alt="Dark Clouds in the sky">
+            </picture>
+            <caption>Storm Clouds</caption>
+            <picture>
+                <img src="images/placeholder.png" data-src="images/foggy-fog.jpg"
+                    alt="Fog in the Forest">
+            </picture>
+            <caption>Fog Settling in the Trees</caption>
+            <picture>
+                <img src="images/placeholder.png" data-src="images/lightning-strike.jpg"
+                    alt="Lightning striking the ground">
+            </picture>
+            <caption>Lightning Striking a Farm</caption>
+            <picture>
+                <img src="images/placeholder.png" data-src="images/lightning.jpg"
+                    alt="Lightning in the field">
+            </picture>
+            <caption>Lightning in the Fields</caption>
+            <picture>
+                <img src="images/placeholder.png" data-src="images/snow-cabin.jpg"
+                    alt="Cabin blanketed in snow">
+            </picture>
+            <caption>Snowy Day at the Cabin</caption>
+            <picture>
+                <img src="images/placeholder.png" data-src="images/csnow-trees.jpg"
+                    alt="Trees blanketed in snow">
+            </picture>
+            <caption>Snow Covered Trees</caption>
+            <picture>
+                <img src="images/placeholder.png" data-src="images/sunny-sun.jpg"
+                    alt="Trees below a clear blue sky">
+            </picture>
+            <caption>Sunny Day</caption>
+            <picture>
+                <img src="images/placeholder.png" data-src="images/sunny-wheat.jpg"
+                    alt="Wheat blowing in the breeze surrounded by sunshine">
+            </picture>
+            <caption>Sunny, Breezy Day</caption>
+
+        </div>
+
 
     </main>
     <footer>
@@ -52,14 +101,13 @@
     </footer>
     <div>
         <script></script>
-        <script src="js/itsFriday.js"></script>
         <script src="js/currentYear.js"></script>
         <script src="js/toggle.js"></script>
     </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-        <script src="js/fontLoader.js"></script>
-        <script src="js/windChill.js"></script>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/fontLoader.js"></script>
+    <script src="js/lazyLoad.js"></script>
+
 </body>
 
 </html>
