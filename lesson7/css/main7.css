@@ -97,7 +97,7 @@ main {
     left: 40px;
     text-align: left;
     background-color: #ffdc51;
-    opacity: .4;
+    opacity: .8;
     padding: 1.5rem;
     
 }
@@ -108,7 +108,7 @@ main {
     background-color: #f9f9f9;
     width: 20%;
     height: 60%;
-    opacity: .7;
+    opacity: .3;
     padding: 1.5rem;
     box-shadow: 0 0 30px #585563;
 }
