@@ -52,6 +52,9 @@ td {
     background-color: #f9f9f9;
     padding: 10px;
 }
+.gallery-grid {
+    grid-template-columns: 1fr 1fr;
+}
 .box3 {
     display: flex;
 }
