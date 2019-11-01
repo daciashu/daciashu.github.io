@@ -114,10 +114,6 @@ main {
     margin: auto;
     padding: 5px;
 }
-.gallery-grid figure img:hover {
-    box-shadow: 0 0 20px #585563;
-
-}
 .box1, .box3, .box4 {
     max-width: 920px;
     margin: 1rem;
