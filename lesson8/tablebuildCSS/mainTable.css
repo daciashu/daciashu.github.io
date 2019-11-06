@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+header {
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto;
+}
+body {
+}
+table {
+    margin: auto;
+    max-width: 50%;
+    box-shadow: 0px 0px 15px -4px #628ca6;
+}
+th {
+    font: bold;
+    color: white;
+    background-color: #628ca6;
+    background-color: #7fb9c2;
+    background-color: #e7f0ed;
+    color: #e7ffed;
+    color: #7fb9c2;
+
+}
+td {
+    color: black;
+
+}
+.tableFoot {
+    background-color: #7fb9c2;
+}
