@@ -23,7 +23,12 @@ th {
 }
 td {
     color: black;
-
+}
+.one {
+    background-color: #e7f0ed;
+}
+.two {
+    background-color: #e7ffed;
 }
 .tableFoot {
     background-color: #7fb9c2;
