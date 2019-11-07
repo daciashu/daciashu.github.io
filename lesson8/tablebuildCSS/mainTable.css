@@ -13,22 +13,9 @@ table {
 }
 th {
     font: bold;
-    color: white;
-    background-color: #628ca6;
-    background-color: #7fb9c2;
-    background-color: #e7f0ed;
-    color: #e7ffed;
-    color: #7fb9c2;
-
 }
 td {
     color: black;
-}
-.one {
-    background-color: #e7f0ed;
-}
-.two {
-    background-color: #e7ffed;
 }
 .tableFoot {
     background-color: #7fb9c2;
