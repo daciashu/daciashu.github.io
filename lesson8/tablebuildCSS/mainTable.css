@@ -12,7 +12,6 @@ table, th, td {
 }
 table {
     margin: auto;
-    max-width: 70%;
     text-align: center;
     box-shadow: 3px 3px 15px #628ca6;
 }
