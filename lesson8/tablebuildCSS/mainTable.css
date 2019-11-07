@@ -4,31 +4,30 @@ header {
     font-family: 'Ubuntu', sans-serif;
     margin: auto;
 }
-body {
-}
 section {
-    padding: 50px;
+    padding: 100px;
     margin: auto;
 }
 table, th, td {
-    border: 1px, solid grey;
-    border-collapse: collapse;
     text-align: center;
 }
 table {
     margin: auto;
-    box-shadow: 10px 10px 5px #628ca6;
+    background-color: #cccccc;
+    box-shadow: 10px 10px 10px #628ca6;
 }
 th {
     font: bold;
+    padding: 8px;
+    text-align: center;
 }
 td {
     color: black;
-    padding: 5px;
+    padding: 10px;
 }
 tr {
     background-color: #e7f0ed;
-    padding: 5px;
+    padding: 10px;
 }
 tr:nth-child(even) {
     background-color: #e7ffed;
