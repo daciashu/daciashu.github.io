@@ -6,6 +6,10 @@ header {
 }
 body {
 }
+section {
+    padding: 10px;
+    margin: auto;
+}
 table, th, td {
     border: 1px, solid grey;
     border-collapse: collapse;
