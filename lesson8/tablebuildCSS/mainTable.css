@@ -13,7 +13,6 @@ section {
 table, th, td {
     border: 1px, solid grey;
     border-collapse: collapse;
-    line-height: 1em;
 }
 table {
     margin: auto;
@@ -29,6 +28,7 @@ td {
 }
 tr {
     background-color: #e7f0ed;
+    padding: 2px;
 }
 tr:nth-child(even) {
     background-color: #e7ffed;
