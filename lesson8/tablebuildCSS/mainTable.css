@@ -11,6 +11,7 @@ table, th, td {
 }
 table {
     margin: auto;
+    padding: 5px;
     text-align: center;
     box-shadow: 3px 3px 15px #628ca6;
 }
