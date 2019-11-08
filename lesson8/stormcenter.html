@@ -49,7 +49,16 @@
             <fieldset>
                 <legend>Storm Information</legend>
                 <label>Storm Date<input type="date" name="sdate"></label>
-                <label><input type=""></label>
+                <label>Storm Type:<input list="storms"></label>
+                    <datalist id="stormType">
+                        <option value="Duststorm"></option>
+                        <option value="Flash Flood"></option>
+                        <option value="Hail"></option>
+                        <option value="Hurricane"></option>
+                        <option value="Thunderstorm"></option>
+                        <option value="Tornado"></option>
+                        <option value="Other"></option>
+                    </datalist>
 
 
 
@@ -62,7 +71,7 @@
                 <label><input type="radio" name="danger" value="yes">Maybe</label>
                 <label><textarea name="message" rows="10" cols="30" placeholder="Additional Information"></textarea></label>
             </fieldset>
-            <input type="submit" value="Report Storm">
+                <input type="submit" value="Report Storm">
 
 
 
