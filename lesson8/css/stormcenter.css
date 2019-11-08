@@ -26,3 +26,8 @@ form label.info input, form label.info select {
     max-width: 20rem;
     background-color: rgb(0,0,0,0.1);
 }
+form label.mid {
+    display: block;
+    padding: .75rem;
+    color: #999;
+}
