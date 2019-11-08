@@ -1,0 +1,29 @@
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #274060;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+form legend {
+    color: #274060;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label.info, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #274060;
+    font-size: .8rem;
+}
+form label.info input, form label.info select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #999;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgb(0,0,0,0.1);
+}
+form label.
