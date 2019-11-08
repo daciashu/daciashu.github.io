@@ -4,9 +4,12 @@ header {
     font-family: 'Ubuntu', sans-serif;
     margin: auto;
 }
-section {
+main {
     padding: 100px;
     margin: auto;
+}
+h2 {
+    margin: 0;
 }
 table, th, td {
     text-align: center;
