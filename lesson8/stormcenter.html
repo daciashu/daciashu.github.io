@@ -41,14 +41,14 @@
         <form method="GET" action="thanks.html">
             <fieldset>
                 <legend>Person Reporting Storm</legend>
-                <label class="info">Full Name*<input type="text" name="fname" required></label>
+                <label class="info">Full Name*<input type="text" name="fullname" pattern="[A-Za-z]{5,}" required></label>
                 <label class="info">Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
                 <label class="info">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
-                <label class="info">Zip Code*<input type="text" name="zip" required></label>
+                <label class="info">Zip Code*<input type="number" name="zip" required></label>
             </fieldset>
             <fieldset>
                 <legend>Storm Information</legend>
-                <label>Storm Date<input type="date"></label>
+                <label>Storm Date<input type="date" name="sdate"></label>
                 <label><input type=""></label>
 
 
@@ -61,6 +61,7 @@
                 <label><input type="radio" name="danger" value="yes">No</label>
                 <label><input type="radio" name="danger" value="yes">Maybe</label>
                 <label><input type="text" name="information" placeholder="Additional Information"></label>
+                <label><input type="textarea" name="information" placeholder="Additional Information" rows="10" cols="30"></textarea></label>
             </fieldset>
             <input type="submit" value="Report Storm">
 
