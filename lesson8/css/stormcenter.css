@@ -55,3 +55,6 @@ form label.info input:required:valid {
     align-items: center;
     padding: 5px;
 }
+.thanks {
+    font-family: 'Berkshire Swash', cursive;
+}
