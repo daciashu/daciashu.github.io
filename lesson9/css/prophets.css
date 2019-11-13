@@ -1,0 +1,71 @@
+header {
+    font-family: 'Satisfy', cursive;
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 0;
+    color: #f9f9f9;
+    text-align: left;
+    background-color: #585563;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+    display: grid;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+	justify-content: center;
+}
+nav {
+    margin: 0 auto;
+	  background-color: #274060;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a {
+	padding: 10px;
+	display: block;
+	text-align: center;
+	color: #f9f9f9;
+	font-size: 0.95rem;
+	text-decoration: none;
+}
+.navigation li {
+    display: none;
+}
+.navigation li:first-child {
+	display: block;
+}
+.responsive li {
+    display: block;
+}
+nav a:hover {
+	background-color: #bcf7f7;
+	color: #585563;
+}
+.active {
+    color: #585563;
+    background-color: #f9f9f9;
+}
+main {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    color: #585563;
+    padding: 20px;
+}
+.cards {
+    color: #585563;
+    background-color: antiquewhite;
+}
