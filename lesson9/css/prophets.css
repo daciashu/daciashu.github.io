@@ -31,13 +31,13 @@ h2 {
 }
 section {
     background-color: antiquewhite;
+    border: solid 1px #585563;
 }
 .cards {
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr;
     color: #585563;
-    border: solid 1px #585563;
     padding: 10px;
     background-color: indianred;
 }
@@ -47,7 +47,7 @@ img {
     padding: 5px;
 }
 .cards, img {
-    box-shadow: 0 0 30px #585563;
+    box-shadow: 10px 10px 10px #585563;
 }
 
 @media only screen and (min-width: 37.5em) {
