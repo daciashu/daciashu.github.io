@@ -30,7 +30,7 @@ h2 {
     font-family: 'Satisfy', cursive;
 }
 section {
-
+    background-color: indianred;
 }
 .cards {
     display: grid;
@@ -38,6 +38,7 @@ section {
     grid-template-columns: 1fr;
     color: #585563;
     background-color: antiquewhite;
+    border: solid 1px #585563;
 }
 img {
     margin: 0;
