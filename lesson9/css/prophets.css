@@ -30,20 +30,21 @@ h2 {
     font-family: 'Satisfy', cursive;
 }
 section {
-    background-color: indianred;
+    background-color: antiquewhite;
 }
 .cards {
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr;
     color: #585563;
-    background-color: antiquewhite;
     border: solid 1px #585563;
     padding: 10px;
+    background-color: indianred;
 }
 img {
     margin: 0;
     width: 75%;
+    padding: 5px;
 }
 .cards, img {
     box-shadow: 0 0 30px #585563;
