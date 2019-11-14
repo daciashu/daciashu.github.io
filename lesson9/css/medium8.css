@@ -69,4 +69,7 @@ td {
     display: flex;
     padding: 10px;
 }
+.towns {
+    grid-column: 1fr 1fr;
+}
 }
