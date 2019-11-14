@@ -7,7 +7,7 @@ fetch(requestURL)
     .then(function (jsonObject) {
         const towns = jsonObject['towns'];
         const weatherPages = ["Preston", "Fish Haven", "Soda Springs"];
-            console.table(jsonObject);
+    
             for (let i = 0; i < towns.length; i++) {
                 if (weatherPages.includes(towns[i].name)) {
                 let card = document.createElement('section');
