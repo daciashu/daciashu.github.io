@@ -17,3 +17,9 @@ img {
     border: solid 1px black;
     background-color: darkgray;
 }
+.medium {
+    max-width: 35%;
+}
+.small {
+    max-width: 25%;
+}
