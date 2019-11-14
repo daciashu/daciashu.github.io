@@ -34,7 +34,7 @@ fetch(requestURL)
                 card.appendChild(p4);
                 card.appendChild(pic);
 
-                document.querySelector('div.cards').appendChild(card);
+                document.querySelector('div.towns').appendChild(card);
                 }
               }
             });
