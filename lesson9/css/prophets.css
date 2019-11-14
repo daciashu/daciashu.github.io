@@ -23,6 +23,7 @@ body {
 main {
     font-size: 1rem;
     margin: auto;
+    max-width: 75%;
     color: #585563;
     padding: 20px;
 }
