@@ -42,8 +42,11 @@ section {
     background-color: indianred;
 }
 img {
-    margin: 0;
-    width: 75%;
+    margin: 30px;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    object-fit: cover;
 }
 .cards, img {
     box-shadow: 0px 0px 10px 0px #585563;
