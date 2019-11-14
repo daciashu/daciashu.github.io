@@ -168,3 +168,8 @@ footer a {
     overflow: hidden;
     object-fit: cover;
 }
+.towns {
+    display: grid;
+    grid-column: 1fr;
+    background-color: ;
+}
