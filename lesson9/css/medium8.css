@@ -70,6 +70,9 @@ td {
     padding: 10px;
 }
 .towns {
-    grid-column: 1fr 1fr;
+    display: flex;
+}
+.towns:nth-child(odd) {
+    flex-direction: row-reverse;
 }
 }
