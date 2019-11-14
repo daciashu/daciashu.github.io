@@ -171,5 +171,7 @@ footer a {
 .towns {
     display: grid;
     grid-column: 1fr;
-    background-color: ;
+    color: #585563;
+    background-color: #bcf7ff;
+    padding: 2px;
 }
