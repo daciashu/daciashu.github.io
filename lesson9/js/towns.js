@@ -6,29 +6,35 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         const towns = jsonObject['towns'];
+        const weatherPages = ["Preston", "Fish Haven", "Soda Springs"];
             console.table(jsonObject);
             for (let i = 0; i < towns.length; i++) {
-                if (name = "Fish Haven") {
-                    
-                }
+                if (weatherPages.includes(towns[i].name)) {
                 let card = document.createElement('section');
                 let h2 = document.createElement('h2');
                 let p1 = document.createElement('p');
                 let p2 = document.createElement('p');
+                let p3 = document.createElement('p');
+                let p4 = document.createElement('p');
                 let pic = document.createElement('img');
 
-                h2.textContent = towns[i].name + ' ' + prophets[i].lastname;
-                p1.textContent = 'Date of Birth: ' + prophets[i].birthdate;
-                p2.textContent = 'Place of Birth: ' + prophets[i].birthplace;
-                pic.setAttribute('src', prophets[i].imageurl);
-                pic.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + ' - ' + prophets[i].order);
+                h2.textContent = towns[i].name;
+                p1.textContent = towns[i].motto;
+                p2.textContent = 'Founded in: ' + towns[i].yearFounded;
+                p3.textContent = 'Population: ' + towns[i].currentPopulation;
+                p4.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall;
+                pic.setAttribute('src', "images/" + towns[i].photo);
+                pic.setAttribute('alt', "A picture of " + towns[i].name;
 
 
                 card.appendChild(h2);
                 card.appendChild(p1);
                 card.appendChild(p2);
+                card.appendChild(p3);
+                card.appendChild(p4);
                 card.appendChild(pic);
 
                 document.querySelector('div.cards').appendChild(card);
-            }
+                }
+              }
             });
