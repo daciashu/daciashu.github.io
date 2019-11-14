@@ -14,4 +14,6 @@ body {
 }
 img {
     max-width: 75%;
+    border: solid 1px black;
+    background-color: darkgray;
 }
