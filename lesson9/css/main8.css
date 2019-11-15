@@ -161,6 +161,10 @@ footer {
 footer a {
     color: #f9f9f9;
 }
+.ourTowns {
+    background-color: #bcf7ff;
+    
+}
 .towns img {
     margin: 20px;
     width: 300px;
