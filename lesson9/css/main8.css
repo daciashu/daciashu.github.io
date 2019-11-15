@@ -175,10 +175,10 @@ footer a {
     grid-row-gap: 10px;
     color: #585563;
     background-color: #bcf7ff;
-    padding: 2px;
+    padding: 10px;
 }
 .towns section {
     border: solid 1px #585563;
-    border-radius: 5px;
+    border-radius: 45px;
     background-color: #f9f9f9;
 }
