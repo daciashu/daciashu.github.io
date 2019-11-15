@@ -169,6 +169,7 @@ footer a {
     object-fit: cover;
 }
 .towns {
+    max-width: 900px;
     display: grid;
     grid-column: 1fr;
     grid-column-gap: 10px;
