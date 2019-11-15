@@ -167,7 +167,6 @@ footer a {
     height: 400px;
     overflow: hidden;
     object-fit: cover;
-    grid-row: 3;
 }
 .towns {
     max-width: 900px;
