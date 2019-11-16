@@ -176,7 +176,7 @@ footer a {
 .towns {
     max-width: 900px;
     display: grid;
-    grid-column: 1fr;
+    grid-template-columns: 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     color: #585563;
@@ -194,6 +194,10 @@ div.towns {
 }*/
 .motto {
     font-family: 'Berkshire Swash', cursive;
+}
+.cardData {
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 
