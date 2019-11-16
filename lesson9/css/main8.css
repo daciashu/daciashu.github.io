@@ -165,7 +165,7 @@ footer a {
 .container {
     margin: 0;
     max-width: 900px;
-    display: grid;
+    display: flex;
     background-color: #274060;
     border-radius: 25px;
 
@@ -173,14 +173,15 @@ footer a {
 .towns img {
     border-radius: 25px;
     box-shadow: 0px 0px 15px -5px #585563;
+    width: 100%;
     /*margin: 20px;
     overflow: hidden;
     object-fit: cover;*/
 }
 .towns {
     max-width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 30px;
     color: #585563;
     padding: 10px;
@@ -195,6 +196,7 @@ footer a {
 }*/
 .motto {
     font-family: 'Berkshire Swash', cursive;
+    font-size: .8em;
 }
 .cardData {
     text-align: center;
