@@ -161,9 +161,10 @@ footer {
 footer a {
     color: #f9f9f9;
 }
-.ourTowns {
+.container {
     background-color: #bcf7ff;
-
+    border-radius: 25px;
+    display: grid;
 }
 .towns img {
     border-radius: 25px;
@@ -191,6 +192,5 @@ div.towns {
 }*/
 .motto {
     font-family: 'Berkshire Swash', cursive;
-    font-size: .6em;
 }
 
