@@ -27,4 +27,7 @@
     article:nth-child(3) {
         flex-direction: column;
     }
+    .town-data {
+        padding: 10px;
+    }
     }
