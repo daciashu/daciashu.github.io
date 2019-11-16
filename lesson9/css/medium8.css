@@ -79,6 +79,7 @@ td {
     width: 75%;
     float: right;
     flex-grow: 1;
+    border-radius: 25px;
 }
 /*.towns section {
     display: grid;
@@ -93,5 +94,8 @@ td {
 article:nth-child(3) {
 	display: flex;
 	flex-direction:row-reverse;
+}
+article {
+    flex-direction: row;
 }
 }

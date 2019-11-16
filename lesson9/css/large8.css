@@ -11,13 +11,16 @@
         box-shadow: 0 0 30px #585563;
     
     }
+    article {
+        flex-direction: column;
+    }
     .towns {
-        grid-template-columns: 1fr 1fr 1fr;
+        flex-direction: row;
     }
     .towns img {
-        grid-row: 3;
+        width: 100%
     }
     article:nth-child(3) {
-        display: grid;
+        flex-direction: column;
     }
     }
