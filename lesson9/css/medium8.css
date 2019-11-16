@@ -73,13 +73,13 @@ td {
 .town-data {
     flex-grow: 2;
     margin: auto;
+    padding: 25px;
 }
 .towns img {
     width: 75%;
     float: right;
     flex-grow: 1;
     border-radius: 25px;
-    padding: 25px;
 }
 /*.towns section {
     display: grid;
