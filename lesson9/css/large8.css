@@ -17,7 +17,4 @@
     .towns img {
         grid-row: 3;
     }
-    .container {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
     }
