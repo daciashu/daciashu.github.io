@@ -10,7 +10,7 @@ fetch(requestURL)
     
             for (let i = 0; i < towns.length; i++) {
                 if (weatherPages.includes(towns[i].name)) {
-                let card = document.createElement('section');
+                let card = document.createElement('article');
                 let cardData = document.createElement('section')
                 let h2 = document.createElement('h2');
                 let p1 = document.createElement('p');
