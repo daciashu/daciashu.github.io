@@ -209,6 +209,7 @@ article:first-child {
     text-align: left;
     color: #585563;
     background-color: #ffdc51;
-    opacity: .7;
+    opacity: .8;
     padding: 30px;
+    margin-top: -15px;
 }
