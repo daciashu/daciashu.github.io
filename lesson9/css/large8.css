@@ -17,4 +17,7 @@
     .towns img {
         grid-row: 3;
     }
+    article:nth-child(3) {
+        display: grid;
+    }
     }

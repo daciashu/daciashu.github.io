@@ -79,7 +79,8 @@ td {
 .towns p, em {
     grid-column: 1;
 }
-.towns:nth-child(odd) {
-    flex-direction: row-reverse;
+article:nth-child(3) {
+	display: flex;
+	flex-direction:row-reverse;
 }
 }
