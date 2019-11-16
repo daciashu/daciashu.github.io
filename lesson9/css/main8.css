@@ -166,8 +166,9 @@ footer a {
 
 }
 .towns img {
-    margin: 20px;
-    /*overflow: hidden;
+    border-radius: 25px;
+    /*margin: 20px;
+    overflow: hidden;
     object-fit: cover;*/
 }
 .towns {
@@ -179,10 +180,17 @@ footer a {
     color: #585563;
     padding: 10px;
 }
-.towns section {
+div.towns {
+    border-radius: 25px;
+}
+/*.towns section {
     border: solid 1px #585563;
     border-radius: 45px;
     background-color: #f9f9f9;
     box-shadow: 0px 0px 15px -5px #274060;
+}*/
+.motto {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: .6em;
 }
 
