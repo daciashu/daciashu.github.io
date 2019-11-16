@@ -166,6 +166,9 @@ footer a {
     margin: 0;
     max-width: 900px;
     display: grid;
+    background-color: #274060;
+    border-radius: 25px;
+
 }
 .towns img {
     border-radius: 25px;
@@ -195,6 +198,13 @@ footer a {
 }
 .cardData {
     text-align: center;
+}
+article:first-child {
+    order: 3;
+}
+article {
+    background-color: #f9f9f9;
+    border-radius: 25px;
 }
 
 
