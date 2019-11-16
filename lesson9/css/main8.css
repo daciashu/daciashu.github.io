@@ -203,11 +203,12 @@ article:first-child {
 }
 .coveringTowns {
     font-family: 'Berkshire Swash', cursive;
-    font-size: 1.2em;
+    font-size: 2em;
 }
 .southeast {
     text-align: left;
     color: #585563;
     background-color: #ffdc51;
     opacity: .9;
+    padding: 30px;
 }
