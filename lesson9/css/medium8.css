@@ -69,9 +69,7 @@ td {
     display: flex;
     padding: 10px;
 }
-article {
-    display: flex;
-}
+
 .town-data {
     flex-grow: 2;
     padding: 50px;
