@@ -163,27 +163,25 @@ footer a {
 }
 /* home page */
 .container {
-    background-color: #bcf7ff;
-    border-radius: 25px;
+    margin: 0;
+    max-width: 900px;
     display: grid;
 }
 .towns img {
     border-radius: 25px;
+    box-shadow: 0px 0px 15px -5px #585563;
     /*margin: 20px;
     overflow: hidden;
     object-fit: cover;*/
 }
 .towns {
-    max-width: 900px;
+    max-width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+    gap: 30px;
     color: #585563;
     padding: 10px;
     box-shadow: 0px 0px 15px -5px #585563;
-}
-div.towns {
     border-radius: 25px;
 }
 /*.towns section {
@@ -196,8 +194,7 @@ div.towns {
     font-family: 'Berkshire Swash', cursive;
 }
 .cardData {
-    display: grid;
-    grid-template-columns: 1fr;
+    text-align: center;
 }
 
 
