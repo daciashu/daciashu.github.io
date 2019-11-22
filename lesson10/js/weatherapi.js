@@ -13,20 +13,3 @@ fetch(apiURL)
         document.getElementById('icon').setAttribute('src', imagesrc);  
         document.getElementById('icon').setAttribute('alt', desc);
     });
-
-
-
-const apiURL = "https://api.openweathermap.org/data/2.5/forcast?id=5604473&units=imperial&APPID=b199c77eadf38caf121ee3f836208d11";
-
-
-
-
-    // Headers
-
-
-
-    // Icons
-
-
-
-    // Forecast
