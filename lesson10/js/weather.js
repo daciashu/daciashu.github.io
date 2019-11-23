@@ -50,20 +50,17 @@ const apiURLforecast = "https://api.openweathermap.org/data/2.5/forcast?id=56044
                 if(jsObject.list[i].dt_txt.includes('18:00:00')); {
                     let day = (jsObject.list[i].main.dayName);
                 
-                document.getElementById('day' + count).textContent = 
-                document.getElementById('current-temp').textContent = jsObject.main.temp;
+                document.getElementById('day' + count).textContent = dayName;
 
-                //icon
+        
                 const imagesrc = 'http://openweathermap.org/img/wn/' + weather_icon + '@2x.png';  
                 const desc = jsObject.weather[0].description;  
                 
-                document.getElementById('day' + count).textContent = imagesrc;  
-                document.getElementById('icon').setAttribute('src', imagesrc);  
-                document.getElementById('icon').setAttribute('alt', desc);
-            
-                //weather
+                document.getElementById('tempDay' + count).textContent = jsObject.main.temp;  
+                document.getElementById('iconDay' + count).setAttribute('src', imagesrc);  
+                document.getElementById('iconDay' + count).setAttribute('alt', desc);
 
-                count += 1;
+                count ++;
                 }
 
             }
