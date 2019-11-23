@@ -131,8 +131,7 @@ main {
     padding: 10px;
 }
 .prestonEventPics {
-    display: block;
-    float: left;
+    max-width: 50%;
 }
 .box4 {
     display: block;
