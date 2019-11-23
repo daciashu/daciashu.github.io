@@ -7,9 +7,9 @@ fetch(apiURL)
     .then((jsObject) => {
         //console.log(jsObject);
         document.getElementById('currently').textContent = jsObject.weather[0].main;
-        document.getElementById('tempF').textContent = jsObject.main.temp;
+        document.getElementById('tempF').textContent = jsObject.main.temp.toFixed(0);
         document.getElementById('humidity').textContent = jsObject.main.humidity;
-        document.getElementById('speed').textContent = jsObject.wind.speed;
+        document.getElementById('speed').textContent = jsObject.wind.speed.toFixed(0);
 
         var t = parseFloat(document.getElementById('tempF').textContent);
         var s = parseFloat(document.getElementById('speed').textContent);
@@ -19,7 +19,7 @@ fetch(apiURL)
 
         function windChill(tempF, speed) {
             var s = Math.pow(speed, 0.16);
-            var f = (35.74 + (0.6215 * tempF) - (35.75 * s) + (0.4275 * (tempF * s))).toFixed(1);
+            var f = (35.74 + (0.6215 * tempF) - (35.75 * s) + (0.4275 * (tempF * s))).toFixed(0);
 
             if (tempF <= 50 && speed > 3) {
                 return f + "°F";
