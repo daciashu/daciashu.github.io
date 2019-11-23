@@ -41,7 +41,7 @@ const apiURLforecast = "https://api.openweathermap.org/data/2.5/forecast?id=5604
     fetch(apiURLforecast)
         .then((response) => response.json())
         .then((jsObject) => {
-            console.log(object);
+            //console.log(object);
           
             var count = 1;
 
