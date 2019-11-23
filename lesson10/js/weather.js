@@ -45,7 +45,7 @@ const apiURLforecast = "https://api.openweathermap.org/data/2.5/forecast?id=5604
           
             var count = 1;
 
-            for (i = 0; i < (apiURLforecast.list.length); i++) {
+            for (i = 0; i < (jsObject.list.length); i++) {
                 if(jsObject.list[i].dt_txt.includes('18:00:00')); {
                     let date = new Date(jsObject[i].main);
                     let day = daynames[date.getDay()];
