@@ -35,7 +35,7 @@ fetch(apiURL)
 
 let daynames = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
 
-const apiURLforecast = "https://api.openweathermap.org/data/2.5/forcast?id=5604473&units=imperial&APPID=b199c77eadf38caf121ee3f836208d11";
+const apiURLforecast = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=b199c77eadf38caf121ee3f836208d11";
 
 
     fetch(apiURLforecast)
@@ -65,16 +65,6 @@ const apiURLforecast = "https://api.openweathermap.org/data/2.5/forcast?id=56044
             }
 
         })
-
-
-   
-
-
-
-    
-    document.getElementById('imagesrc').textContent = imagesrc;  
-    document.getElementById('icon').setAttribute('src', imagesrc);  
-    document.getElementById('icon').setAttribute('alt', desc);
 
 
     // Forecast
