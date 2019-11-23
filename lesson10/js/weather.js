@@ -46,16 +46,16 @@ const apiURLforecast = "https://api.openweathermap.org/data/2.5/forecast?id=5604
             var count = 1;
 
             for (i = 0; i < (jsObject.list.length); i++) {
-                if(jsObject.list[i].dt_txt.includes('18:00:00')); {
-                    let date = new Date(jsObject[i].main);
+                if(jsObject.list[i].dt_txt.includes('18:00:00')) {
+                    let date = new Date(jsObject[i].dt_txt);
                     let day = daynames[date.getDay()];
 
         
-                const imagesrc = 'http://openweathermap.org/img/wn/' + weather_icon + '@2x.png';  
-                const desc = jsObject.weather[0].description;  
+                const imagesrc = 'http://openweathermap.org/img/wn/' + jsObject.list[i].weather[0].icon + '@2x.png';  
+                const desc = jsObject.list[i].weather[0].description;  
                 
                 document.getElementById('day' + count).textContent = day;
-                document.getElementById('tempDay' + count).textContent = jsObject.main.temp;  
+                document.getElementById('tempDay' + count).textContent = jsObject.list[i].main.temp;  
                 document.getElementById('iconDay' + count).setAttribute('src', imagesrc);  
                 document.getElementById('iconDay' + count).setAttribute('alt', desc);
 
