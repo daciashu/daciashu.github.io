@@ -14,7 +14,7 @@ header {
     padding: 5px 0;
     color: #f9f9f9;
     text-align: left;
-    background-color: #E0E0E0;
+    background-color: #585563;
     align-items: center;
     justify-content: center;
 }
@@ -132,7 +132,7 @@ main {
 }
 .box4 {
     display: block;
-	background-color: #E0E0E0;
+	background-color: #585563;
     color: #f9f9f9;
     text-align: left;
 }
