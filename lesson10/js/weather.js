@@ -1,3 +1,5 @@
+//Current Weather
+
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=b199c77eadf38caf121ee3f836208d11";
 
 fetch(apiURL)
@@ -28,26 +30,55 @@ fetch(apiURL)
     }
 });
 
+//Forecast
+
+let daynames = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
+var d = newDate();
+let dayName = daynames[d.getDay()];
+
+const apiURLforecast = "https://api.openweathermap.org/data/2.5/forcast?id=5604473&units=imperial&APPID=b199c77eadf38caf121ee3f836208d11";
 
 
-
-/*const apiURL = "https://api.openweathermap.org/data/2.5/forcast?id=5604473&units=imperial&APPID=b199c77eadf38caf121ee3f836208d11";
-
-
-    fetch(apiURL)
+    fetch(apiURLforecast)
         .then((response) => response.json())
         .then((jsObject) => {
             console.log(object);
+         /*   
+            var count = 1;
 
+            for (i = 0; i < apiURLforecast.list.length; i++) {
+                if(jsObject.list[i].dt_txt.includes('18:00:00')); {
+                    let day = (jsObject.list[i].main.dayName);
+                
+                document.getElementById('day' + count).textContent = 
+                document.getElementById('current-temp').textContent = jsObject.main.temp;
+
+                //icon
+                const imagesrc = 'http://openweathermap.org/img/wn/' + weather_icon + '@2x.png';  
+                const desc = jsObject.weather[0].description;  
+                
+                document.getElementById('day' + count).textContent = imagesrc;  
+                document.getElementById('icon').setAttribute('src', imagesrc);  
+                document.getElementById('icon').setAttribute('alt', desc);
+            
+                //weather
+
+                count += 1;
+                }
+
+            }
+*/
         })
 
 
-    // Headers
+   
 
 
 
-    // Icons
+    
+    document.getElementById('imagesrc').textContent = imagesrc;  
+    document.getElementById('icon').setAttribute('src', imagesrc);  
+    document.getElementById('icon').setAttribute('alt', desc);
 
 
-
-    // Forecast */
+    // Forecast
