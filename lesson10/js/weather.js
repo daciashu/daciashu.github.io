@@ -46,20 +46,21 @@ const apiURLforecast = "https://api.openweathermap.org/data/2.5/forecast?id=5604
             var count = 1;
 
             for (i = 0; i < (jsObject.list.length); i++) {
-                if(jsObject.list[i].dt_txt.includes('18:00:00')) {
-                    let date = new Date(jsObject[i].dt_txt);
-                    let day = daynames[date.getDay()];
-
-        
-                const imagesrc = 'http://openweathermap.org/img/wn/' + jsObject.list[i].weather[0].icon + '@2x.png';  
-                const desc = jsObject.list[i].weather[0].description;  
-                
-                document.getElementById('day' + count).textContent = day;
-                document.getElementById('tempDay' + count).textContent = jsObject.list[i].main.temp;  
-                document.getElementById('iconDay' + count).setAttribute('src', imagesrc);  
-                document.getElementById('iconDay' + count).setAttribute('alt', desc);
-
-                count ++;
+                let datecheck = jsObject.list[i].dt_txt;
+                if (datecheck.includes('18:00:00')) {  // You had a little semi-colon after your if condition... it was causing every iteration to execute the code block.
+                    let date = new Date(jsObject.list[i].dt_txt); //"list" is the array you are trying to access and "dt_txt" is the field you are looking for inside that array.
+                    let day = daynames[date.getDay()]; //Changed this to 
+                    let weather_icon = jsObject.list[i].weather[0].icon; //Added this line.
+    
+                    const imagesrc = 'http://openweathermap.org/img/wn/' + weather_icon + '@2x.png'; //weather_icon is not defined.
+                    const desc = jsObject.list[i].weather[0].description; //Need to insert .list[i] between jsObject and .weather[0]
+    
+                    document.getElementById('day' + count).textContent = day;
+                    document.getElementById('tempDay' + count).textContent = jsObject.list[i].main.temp; //Need to insert .list[i] between jsObject and .main.temp
+                    document.getElementById('iconDay' + count).setAttribute('src', imagesrc);
+                    document.getElementById('iconDay' + count).setAttribute('alt', desc);
+    
+                    count++;
                 }
 
             }
