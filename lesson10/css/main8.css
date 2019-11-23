@@ -130,6 +130,10 @@ main {
     text-align: left;
     padding: 10px;
 }
+.prestonEventPics {
+    display: block;
+    float: left;
+}
 .box4 {
     display: block;
 	background-color: #585563;
