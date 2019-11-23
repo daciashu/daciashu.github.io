@@ -43,7 +43,7 @@ const apiURLforecast = "https://api.openweathermap.org/data/2.5/forcast?id=56044
         .then((response) => response.json())
         .then((jsObject) => {
             console.log(object);
-         /*   
+          
             var count = 1;
 
             for (i = 0; i < apiURLforecast.list.length; i++) {
@@ -67,7 +67,7 @@ const apiURLforecast = "https://api.openweathermap.org/data/2.5/forcast?id=56044
                 }
 
             }
-*/
+
         })
 
 
