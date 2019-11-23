@@ -32,9 +32,8 @@ fetch(apiURL)
 
 //Forecast
 
+
 let daynames = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
-var d = newDate();
-let dayName = daynames[d.getDay()];
 
 const apiURLforecast = "https://api.openweathermap.org/data/2.5/forcast?id=5604473&units=imperial&APPID=b199c77eadf38caf121ee3f836208d11";
 
@@ -46,16 +45,16 @@ const apiURLforecast = "https://api.openweathermap.org/data/2.5/forcast?id=56044
           
             var count = 1;
 
-            for (i = 0; i < apiURLforecast.list.length; i++) {
+            for (i = 0; i < (apiURLforecast.list.length); i++) {
                 if(jsObject.list[i].dt_txt.includes('18:00:00')); {
-                    let day = (jsObject.list[i].main.dayName);
-                
-                document.getElementById('day' + count).textContent = dayName;
+                    let date = new Date(jsObject[i].main);
+                    let day = daynames[date.getDay()];
 
         
                 const imagesrc = 'http://openweathermap.org/img/wn/' + weather_icon + '@2x.png';  
                 const desc = jsObject.weather[0].description;  
                 
+                document.getElementById('day' + count).textContent = day;
                 document.getElementById('tempDay' + count).textContent = jsObject.main.temp;  
                 document.getElementById('iconDay' + count).setAttribute('src', imagesrc);  
                 document.getElementById('iconDay' + count).setAttribute('alt', desc);
