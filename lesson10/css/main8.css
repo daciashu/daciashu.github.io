@@ -3,7 +3,7 @@
     display: none;
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
-    color: #585563;
+    color: #E0E0E0;
     background-color: #ffdc51;
 }
 header {
@@ -14,7 +14,7 @@ header {
     padding: 5px 0;
     color: #f9f9f9;
     text-align: left;
-    background-color: #585563;
+    background-color: #E0E0E0;
     align-items: center;
     justify-content: center;
 }
@@ -132,7 +132,7 @@ main {
 }
 .box4 {
     display: block;
-	background-color: #585563;
+	background-color: #E0E0E0;
     color: #f9f9f9;
     text-align: left;
 }
