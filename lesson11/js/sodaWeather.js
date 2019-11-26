@@ -1,6 +1,6 @@
 //Current Weather
 
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?lat=42.0380565&lon=-111.4004692&units=imperial&APPID=b199c77eadf38caf121ee3f836208d11";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?lat=42.6607041&lon=-111.5910657&units=imperial&APPID=b199c77eadf38caf121ee3f836208d11";
 
 fetch(apiURL)
     .then((response) => response.json())
@@ -34,7 +34,7 @@ fetch(apiURL)
 
 let daynames = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
 
-const apiURLforecast = "https://api.openweathermap.org/data/2.5/forecast?lat=42.0380565&lon=-111.4004692&units=imperial&APPID=b199c77eadf38caf121ee3f836208d11";
+const apiURLforecast = "https://api.openweathermap.org/data/2.5/forecast?lat=42.6607041&lon=-111.5910657&units=imperial&APPID=b199c77eadf38caf121ee3f836208d11";
 
 
 fetch(apiURLforecast)
