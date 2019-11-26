@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Weather Site Project by Dacia Shumate - CIT230: Web Frontend Development - BYUI - Fall 2019">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash%7cPoppins&display=swap" rel="stylesheet">
+    <link href="css/main8.css" rel="stylesheet">
+    <link href="css/medium8.css" rel="stylesheet">
+    <link href="css/large8.css" rel="stylesheet">
+
+    <title>Weather Site | Home</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="images/weather-LOGO.png" class="logo" alt="Weather Wise Logo">
+        </div>
+        <div>
+            <h1>Weather Wise</h1>
+            <p class="headerTitle2">Where you go to check the weather</p>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Welcome to the Home of Weather Wise</h2>
+        <div class="heroBanner">
+            <picture>
+                <source srcset="images/home-banner-image300.jpg" media="(max-width: 599px)">
+                <source srcset="images/home-banner-image500.jpg" media="(max-width: 799px)">
+                <source srcset="images/home-banner-image.jpg" media="(min-width: 800px)">
+                <img src="images/home-banner-image.jpg" alt="rolling mountains">
+            </picture>
+        </div>
+        <div class="southeast">Near Bear Lake, head north off the interstate to experience the stunning scenery and
+            attractions of southeast Idaho
+            <a href="https://www.yellowstonepark.com/road-trips/idaho-high-country"><small>learn more</small></a></div>
+        <div><h2 class="coveringTowns">Towns We Cover</h2></div>
+        <div class="container">
+            <div class="towns"> </div>
+        </div>
+        <div class="box4">
+            <section class="preston-map">
+                <h6>Map of Preston, ID</h6>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853438026!2d-111.91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1572016817355!5m2!1sen!2sus"></iframe>
+            </section>
+            <section class="contact-info">
+                <h3>Contact Information</h3>
+                <hr>
+                <p>400 S 4th E</p>
+                <p>Preston ID 83263</p>
+                <p>208.555.4848</p>
+                <p>hello@weatherwise.us</p>
+                <a href="www.facebook.com"><img src="images/fb.png" class="socialLogo" alt="facebook"></a><a
+                    href="www.instagram.com"><img src="images/insta.png" class="socialLogo" alt="instagram"></a><a
+                    href="www.twitter.com"><img src="images/twitter.png" class="socialLogo" alt="twitter"></a><a
+                    href="www.pinterest.com"><img src="images/pin.png" class="socialLogo" alt="pinterest"></a>
+            </section>
+        </div>
+    </main>
+    <footer>
+        &copy; <span id="currentYear">2019</span> | Dacia Shumate | South Carolina | <a
+            href="https://daciashu.github.io/">Assignment Portal</a> |
+        <br>
+        <div id="currentDate">
+            <script src="js/newDate.js"></script>
+        </div>
+    </footer>
+    <div>
+        <script src="js/towns.js"></script>
+        <script src="js/currentYear.js"></script>
+        <script src="js/toggle.js"></script>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/fontLoader.js"></script>
+    
+</body>
+
+</html>
