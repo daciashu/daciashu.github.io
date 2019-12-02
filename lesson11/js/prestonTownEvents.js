@@ -24,7 +24,7 @@ fetch(eventURL)
                 p1.textContent = events[i].events[0];
                 p2.textContent = events[i].events[1];
                 p3.textContent = events[i].events[2];
-            pic.setAttribute('src', "images/napoleon300.jpg");
+            pic.setAttribute('src', "images/napoleon500.jpg");
             pic.setAttribute('alt', "A picture of the cast of Napoleon Dynamite");
 
             card.appendChild(cardData);
