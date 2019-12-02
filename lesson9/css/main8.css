@@ -39,7 +39,7 @@ body {
 }
 nav {
     margin: 0 auto;
-	  background-color: #274060;
+	background-color: #274060;
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
@@ -76,14 +76,14 @@ nav a:hover {
 main {
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
-    max-width: 900px;
+    max-width: 920px;
     margin: auto;
     color: #585563;
     padding: 20px;
 }
 .heroBanner {
     position: relative;
-    max-width: 900px;
+    max-width: 920px;
     margin: 10px auto;
 }
 .heroPic {
@@ -163,7 +163,7 @@ iframe {
 }
 footer {
     font-family: 'Poppins', sans-serif;
-    max-width: 900px;
+    max-width: 920px;
     padding: 20px;
     margin: auto;
     background-color: #274060;
@@ -175,7 +175,7 @@ footer a {
 /* home page */
 .container {
     margin: 0;
-    max-width: 900px;
+    max-width: 920px;
     display: flex;
 }
 article {
