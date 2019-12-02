@@ -10,8 +10,8 @@ fetch(eventURL)
 
         for (let i=0; i < events.length; i++) {
             if (townEvents.includes(events[i].name)) {
-            let card = document.createElement('article');
-            let cardData = document.createElement('section');
+            let card = document.createElement('div');
+            let cardData = document.createElement('div');
             let h2 = document.createElement('h2');
             let p1 = document.createElement('p');
             let pic = document.createElement('img');
