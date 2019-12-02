@@ -5,7 +5,7 @@ fetch(eventURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        const towns = jsonObject['towns'];
+        const events = jsonObject['towns'];
         const townEvents = ["Fish Haven"]; 
 
         for (let i=0; i < towns.length; i++) {
