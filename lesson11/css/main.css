@@ -81,6 +81,15 @@ main {
     color: #585563;
     padding: 20px;
 }
+a:link {
+    color: #ffdc51;
+}
+a:visited {
+    color: rgb(229, 169, 149);
+}
+a:hover {
+    color: crimson;
+}
 .heroBanner {
     position: relative;
     max-width: 900px;
@@ -135,7 +144,7 @@ main {
     background-color: #E0E0E0;
 }
 .prestonEvents img {
-    width: 100%;
+    width: 75%;
 }
 .box4 {
     display: block;
