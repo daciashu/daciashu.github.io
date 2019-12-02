@@ -14,6 +14,8 @@ fetch(eventURL)
             let cardData = document.createElement('div');
             let h2 = document.createElement('h2');
             let p1 = document.createElement('p');
+            let p2 = document.createElement('p');
+            let p3 = document.createElement('p');
             let pic = document.createElement('img');
 
             cardData.className = 'town-events';
