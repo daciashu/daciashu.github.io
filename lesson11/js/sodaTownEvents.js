@@ -22,6 +22,8 @@ fetch(eventURL)
 
             h2.textContent = 'Upcoming Events in ' + events[i].name;
             p1.textContent = events[i].events;
+            p2.textContent = events[i].events;
+            p3.textContent = events[i].events;
             pic.setAttribute('src', "images/Fresh-Mineral-Water.jpg");
             pic.setAttribute('alt', "A picture of someone scooping a cup of water from the soda geyser");
 
@@ -29,6 +31,8 @@ fetch(eventURL)
             card.appendChild(pic);
             cardData.appendChild(h2);
             cardData.appendChild(p1);
+            cardData.appendChild(p2);
+            cardData.appendChild(p3);
 
             document.querySelector('div.events').appendChild(card);
         }
