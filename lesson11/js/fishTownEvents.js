@@ -8,8 +8,8 @@ fetch(eventURL)
         const events = jsonObject['towns'];
         const townEvents = ["Fish Haven"]; 
 
-        for (let i=0; i < towns.length; i++) {
-            if (townEvents.includes(towns[i].name)) {
+        for (let i=0; i < events.length; i++) {
+            if (townEvents.includes(events[i].name)) {
                 let card = document.createElement('div');
                 let cardData = document.createElement('div');
                 let h2 = document.createElement('h2');
