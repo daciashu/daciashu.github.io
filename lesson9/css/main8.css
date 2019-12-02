@@ -126,6 +126,9 @@ main {
     display: block;
     background-color: #bcf7ff;  
 }
+.box3pic {
+    width: 100%;
+}
 .star-article {
     text-align: left;
     padding: 10px;
