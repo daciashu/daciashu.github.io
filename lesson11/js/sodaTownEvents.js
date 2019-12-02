@@ -8,8 +8,8 @@ fetch(eventURL)
         const events = jsonObject['towns'];
         const townEvents = ["Soda Springs"]; 
 
-        for (let i=0; i < towns.length; i++) {
-            if (townEvents.includes(towns[i].name)) {
+        for (let i=0; i < events.length; i++) {
+            if (townEvents.includes(events[i].name)) {
             let card = document.createElement('article');
             let cardData = document.createElement('section');
             let h2 = document.createElement('h2');
@@ -18,8 +18,8 @@ fetch(eventURL)
 
             cardData.className = 'town-events';
 
-            h2.textContent = 'Upcoming Events in ' + towns[i].name;
-            p1.textContent = towns[i].events;
+            h2.textContent = 'Upcoming Events in ' + events[i].name;
+            p1.textContent = events[i].events;
             pic.setAttribute('src', "images/Fresh-Mineral-Water.jpg");
             pic.setAttribute('alt', "A picture of someone scooping a cup of water from the soda geyser");
 
