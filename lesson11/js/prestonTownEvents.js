@@ -25,7 +25,7 @@ fetch(eventURL)
                 p2.textContent = events[i].events[1];
                 p3.textContent = events[i].events[2];
             pic.setAttribute('src', "images/napoleon300.jpg");
-            pic.setAttribute('alt', "A picture of the cast of Napoleon Dynomite");
+            pic.setAttribute('alt', "A picture of the cast of Napoleon Dynamite");
 
             card.appendChild(cardData);
             card.appendChild(pic);
@@ -34,7 +34,7 @@ fetch(eventURL)
             cardData.appendChild(p2);
             cardData.appendChild(p3);
 
-            document.querySelector('div.towns').appendChild(card);
+            document.querySelector('div.events').appendChild(card);
         }
       }
     });

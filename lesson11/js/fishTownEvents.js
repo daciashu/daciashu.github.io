@@ -37,7 +37,7 @@ fetch(eventURL)
             cardData.appendChild(p3);
             cardData.appendChild(p4);
 
-            document.querySelector('div.towns').appendChild(card);
+            document.querySelector('div.events').appendChild(card);
         }
       }
     });
