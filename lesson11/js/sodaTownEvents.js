@@ -5,7 +5,7 @@ fetch(eventURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        const towns = jsonObject['towns'];
+        const events = jsonObject['towns'];
         const townEvents = ["Soda Springs"]; 
 
         for (let i=0; i < towns.length; i++) {
@@ -18,7 +18,7 @@ fetch(eventURL)
 
             cardData.className = 'town-events';
 
-            h2.textContent = 'Upcoming Events in' + towns[i].name;
+            h2.textContent = 'Upcoming Events in ' + towns[i].name;
             p1.textContent = towns[i].events;
             pic.setAttribute('src', "images/Fresh-Mineral-Water.jpg" + towns[i].photo);
             pic.setAttribute('alt', "A picture of someone scooping a cup of water from the soda geyser");
@@ -28,7 +28,7 @@ fetch(eventURL)
             cardData.appendChild(h2);
             cardData.appendChild(p1);
 
-            document.querySelector('div.towns').appendChild(card);
+            document.querySelector('div.events').appendChild(card);
         }
       }
     });
