@@ -21,7 +21,7 @@ fetch(eventURL)
             h2.textContent = 'Upcoming Events in' + towns[i].name;
             p1.textContent = towns[i].events;
             pic.setAttribute('src', "images/napoleon300.jpg" + towns[i].photo);
-            pic.setAttribute('alt', "A picture of the cast of Napoleon Dynomite";
+            pic.setAttribute('alt', "A picture of the cast of Napoleon Dynomite");
 
             card.appendChild(cardData);
             card.appendChild(pic);
