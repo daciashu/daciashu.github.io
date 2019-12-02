@@ -20,7 +20,7 @@ fetch(eventURL)
 
             h2.textContent = 'Upcoming Events in ' + towns[i].name;
             p1.textContent = towns[i].events;
-            pic.setAttribute('src', "images/Fresh-Mineral-Water.jpg" + towns[i].photo);
+            pic.setAttribute('src', "images/Fresh-Mineral-Water.jpg");
             pic.setAttribute('alt', "A picture of someone scooping a cup of water from the soda geyser");
 
             card.appendChild(cardData);
