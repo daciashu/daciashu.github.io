@@ -16,7 +16,7 @@ fetch(eventURL)
             let p1 = document.createElement('p');
             let pic = document.createElement('img');
 
-            cardData.className = 'town-event-data';
+            cardData.className = 'town-events';
 
             h2.textContent = 'Upcoming Events in' + towns[i].name;
             p1.textContent = towns[i].events;
@@ -28,7 +28,7 @@ fetch(eventURL)
             cardData.appendChild(h2);
             cardData.appendChild(p1);
 
-            document.querySelector('div.events').appendChild(card);
+            document.querySelector('div.towns').appendChild(card);
         }
       }
     });
