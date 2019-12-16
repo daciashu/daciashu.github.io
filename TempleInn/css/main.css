@@ -59,6 +59,10 @@ nav a:hover {
     color: #5f506b;
     background-color: #f4f4f4;
 }
+.sub-hero {
+    color: #5f506b;
+    background-color: #e2c752;
+}
 main {
     font-size: 1rem;
     font-family: 'Fira Sans', sans-serif;
