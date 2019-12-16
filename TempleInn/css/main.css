@@ -10,8 +10,10 @@ header {
     align-items: center;
     justify-content: center;
 }
-
-
+.subheader {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+}
 h6 {
     display: none;
 }
@@ -60,8 +62,35 @@ nav a:hover {
 main {
     font-size: 1rem;
     font-family: 'Fira Sans', sans-serif;
+        font-weight: 300;
     max-width: 900px;
     margin: auto;
     color: #5f506b;
     padding: 20px;
+}
+.preston-map {
+    display: none;
+}
+.contact-info {
+    padding: 10px;
+}
+.socialLogo {
+    opacity: .8;
+    max-width: 10%;
+}
+iframe {
+    width: 400px;
+    height: 300px;
+}
+footer {
+    font-family: 'Fira Sans', sans-serif;
+        font-weight: 300;
+    max-width: 900px;
+    padding: 20px;
+    margin: auto;
+    background-color: #5f506b;;
+    color: #f9f9f9;
+}
+footer a {
+    color: #f4f4f4;
 }
