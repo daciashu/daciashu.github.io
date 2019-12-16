@@ -27,3 +27,6 @@
     .active {
         font-size: 1.5rem;
     }
+    .box4 {
+        display: flex;
+    }
