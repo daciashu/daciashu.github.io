@@ -1,0 +1,29 @@
+@media only screen and (min-width: 37.5em) {
+
+    main {
+        min-height: 300px;
+        align-content: center;
+    }
+    header img {
+        width: 80%;
+    }
+    body {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    nav a {
+        font-size: 1rem;
+    }
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .active {
+        font-size: 1.5rem;
+    }
