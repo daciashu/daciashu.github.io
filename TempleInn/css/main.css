@@ -66,9 +66,22 @@ nav a:hover {
     background-color: #393d3f;
 }
 .sub-hero {
+    position: relative;
     color: #5f506b;
     background-color: #e2c752;
-    line-height: 3rem;
+    padding: 5px;
+}
+.heroText {
+  position: relative;
+  top: 50%;
+  bottom: 50%;
+  float: left;
+  padding: 10px;
+}
+.callToAction {
+  position: relative;
+  top: 50%;
+  bottom: 50%;
 }
 main {
     font-size: 1rem;
