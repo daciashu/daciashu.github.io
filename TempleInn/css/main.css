@@ -28,7 +28,7 @@ body {
 nav {
     font-family: 'Fira Sans', sans-serif;
     margin: 0 auto;
-    background-color: #f4f4f4;
+    background-color: #e2c752;
     text-align: center;
 }
 nav ul {
@@ -64,6 +64,8 @@ nav a:hover {
 .sub-hero {
     color: #5f506b;
     background-color: #e2c752;
+    line-height: 2rem;
+    
 }
 main {
     font-size: 1rem;
