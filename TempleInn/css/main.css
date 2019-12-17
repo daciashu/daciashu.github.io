@@ -145,6 +145,10 @@ main {
       margin: 4px 2px;
       cursor: pointer;
   }
+  .fancy {
+    font-family: 'Meddon', cursive;
+    font-size: larger;
+  }
 .map {
     display: none;
 }
