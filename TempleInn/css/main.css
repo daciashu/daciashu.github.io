@@ -54,12 +54,12 @@ nav ul li a {
     display: block;
 }
 nav a:hover {
-	background-color: #f4f4f4;
-	color: #5f506b;
+	background-color: #5f506b;
+	color: #f4f4f4;
 }
 .active {
-    color: #5f506b;
-    background-color: #f4f4f4;
+    color: #e2c752;
+    background-color: #393d3f;
 }
 .sub-hero {
     color: #5f506b;
@@ -73,7 +73,7 @@ main {
         font-weight: 300;
     max-width: 900px;
     margin: auto;
-    color: #5f506b;
+    color: #393d3f;
     padding: 20px;
 }
 .button {
@@ -109,7 +109,7 @@ footer {
     padding: 20px;
     margin: auto;
     background-color: #5f506b;;
-    color: #f9f9f9;
+    color: #f4f4f4;
 }
 footer a {
     color: #f4f4f4;
