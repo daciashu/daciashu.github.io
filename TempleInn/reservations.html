@@ -37,14 +37,15 @@
         </ul>
     </nav>
     <main>
+        <h1>Book Your Stay</h1>
         <form method="GET" action="thanks.html">
             <fieldset>
-                <legend>Book Your Stay</legend>
-                <label class="info">Full Name*<input type="text" name="fullname" pattern="[A-Za-z\s]{5,}"
+                <legend>&nbspRegistrant Information&nbsp</legend>
+                <label class="info">Full Name*&nbsp<input type="text" name="fullname" pattern="[A-Za-z\s]{5,}"
                         required></label>
-                <label class="info">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                <label class="info">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
-                <label class="info">Number of Guests<select>
+                <label class="info">Email*&nbsp<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="info">Phone*&nbsp<input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="info">Number of Guests&nbsp<select>
                         <option value="Select Number" disabled>Select Number &#9662;</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -56,14 +57,32 @@
                         <option value="8">8</option>
                     </select>
                 </label>
+                <label class="info">Number of Rooms&nbsp<select>
+                        <option value="Select Number" disabled>Select Number &#9662;</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </label>
+                <label class="info">Type of Room&nbsp<select>
+                        <option value="Select Room" disabled>Select Location &#9662;</option>
+                        <option value="One Queen">One Queen (sleeps 2)</option>
+                        <option value="Two Queens">Two Queens (sleeps 4)</option>
+                        <option value="One King">One King (sleeps 2)</option>
+                        <option value="Suite">Suite (sleeps 6)</option>
+                    </select>
+                </label>
+        
             </fieldset>
             <fieldset>
-                <legend>Choose your dates</legend>
-                <label class="info">Date of Check-in*<input type="date" name="sdate" required></label>
-                <label class="info">Date of Check-out*<input type="date" name="sdate" required></label>
+                <legend>&nbspChoose your dates&nbsp</legend>
+                <label class="info">Date of Check-in*&nbsp<input type="date" name="sdate" required></label>
+                <label class="info">Date of Check-out*&nbsp<input type="date" name="sdate" required></label>
             </fieldset>
             <fieldset>
-                <label class="info">Location<select>
+                <legend>&nbspChoose a Location&nbsp</legend>
+                <label class="info">Location&nbsp<select>
                         <option value="Select Location" disabled>Select Location &#9662;</option>
                         <option value="Rome, Italy">Rome, Italy</option>
                         <option value="Paris, France">Paris, France</option>
@@ -73,16 +92,21 @@
                 </label>
             </fieldset>
             <fieldset>
-                <legend>Payment Method</legend>
-                <label class="info">Name on Card*<input type="text" name="fullname" pattern="[A-Za-z\s]{5,}"
+                <legend>&nbspPayment Method&nbsp</legend>
+                <label class="info">Name on Card*&nbsp<input type="text" name="fullname" pattern="[A-Za-z\s]{5,}"
                     required></label>
                 <label class="info">Credit Card Number*<input type="number" name="creditCard" placeholder="1234345656787890" required>
                         </label>
-                        <label class="info">CVC*<input type="number" name="cvc" placeholder="123" required>
+                        <label class="info">CVC*&nbsp<input type="number" name="cvc" placeholder="123" required>
                         </label>
-                        <label class="info">Expiration Date*<input type="number" name="expire" placeholder="12/2023" required>
+                        <label class="info">Expiration Date*&nbsp<input type="number" name="expire" placeholder="12/2023" required>
                         </label>
-
+                        <label class="info">Zip Code*<input type="number" name="zip" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>&nbspSpecial Requests or Additional Information&nbsp</legend>
+                <label class="mid"><textarea name="message" rows="10" cols="30"
+                    placeholder="Additional Information"></textarea></label>
             </fieldset>
             <label class="submitButton"><input type="submit" name="button" value="Make Reservation"></label>
 
