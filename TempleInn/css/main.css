@@ -156,8 +156,7 @@ main {
     padding: 10px;
 }
 .socialLogo {
-    opacity: .8;
-    max-width: 10%;
+    max-width: 100px;
 }
 iframe {
     width: 400px;
