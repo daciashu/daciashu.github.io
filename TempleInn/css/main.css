@@ -72,6 +72,18 @@ main {
     color: #5f506b;
     padding: 20px;
 }
+.button {
+    background-color: #5f506b;
+    border: none;
+    color: #f4f4f4;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 .preston-map {
     display: none;
 }
