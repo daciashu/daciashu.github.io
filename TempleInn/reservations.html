@@ -44,7 +44,6 @@
                         required></label>
                 <label class="info">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
                 <label class="info">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
-                <label class="info">Zip Code*<input type="number" name="zip" required></label>
                 <label class="info">Number of Guests<select>
                         <option value="Select Number" disabled>Select Number &#9662;</option>
                         <option value="1">1</option>
@@ -72,6 +71,18 @@
                         <option value="Kyiv, Ukraine">Kyiv, Ukraine</option>
                     </select>
                 </label>
+            </fieldset>
+            <fieldset>
+                <legend>Payment Method</legend>
+                <label class="info">Name on Card*<input type="text" name="fullname" pattern="[A-Za-z\s]{5,}"
+                    required></label>
+                <label class="info">Credit Card Number*<input type="number" name="creditCard" placeholder="1234345656787890" required>
+                        </label>
+                        <label class="info">CVC*<input type="number" name="cvc" placeholder="123" required>
+                        </label>
+                        <label class="info">Expiration Date*<input type="number" name="expire" placeholder="12/2023" required>
+                        </label>
+
             </fieldset>
             <label class="submitButton"><input type="submit" name="button" value="Make Reservation"></label>
 
