@@ -107,7 +107,7 @@ main {
 }
 .box4 {
     display: block;
-	background-color: #b0b0b0;
+	background-color: #f4f4f4;
     color: #393d3f;
     text-align: left;
 }
@@ -116,6 +116,7 @@ main {
 }
 .contact-info {
     padding: 10px;
+    float: right;
 }
 .socialLogo {
     opacity: .8;
