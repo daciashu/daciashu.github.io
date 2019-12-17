@@ -16,6 +16,10 @@ header {
     line-height: 2em;
     font-kerning: 1.2em;
 }
+.page-header {
+    font-family: 'Meddon', cursive;
+    font-size: 1.5rem;
+}
 h6 {
     display: none;
 }
