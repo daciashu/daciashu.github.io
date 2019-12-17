@@ -28,7 +28,7 @@ body {
 nav {
     font-family: 'Fira Sans', sans-serif;
     margin: 0 auto;
-    background-color: #e2c752;
+    background-color: #5f506b;
     text-align: center;
 }
 nav ul {
@@ -40,7 +40,7 @@ nav ul li a {
 	padding: 10px;
 	display: block;
 	text-align: center;
-	color: #393d3f;
+	color: #f4f4f4;
 	font-size: 0.95rem;
 	text-decoration: none;
 }
@@ -58,14 +58,13 @@ nav a:hover {
 	color: #f4f4f4;
 }
 .active {
-    color: #5f506b;
-    background-color: #b0b0b0;
+    color: #f4f4f4;
+    background-color: #393d3f;
 }
 .sub-hero {
     color: #5f506b;
     background-color: #e2c752;
-    line-height: 2rem;
-    
+    line-height: 3rem;
 }
 main {
     font-size: 1rem;
