@@ -133,7 +133,7 @@ main {
     display: flex;
     padding: 10px; 
   }
-  .submitButton {
+  input[type=button] {
       background-color: #5f506b;
       border: none;
       color: #f4f4f4;
