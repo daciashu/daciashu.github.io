@@ -54,8 +54,8 @@ nav ul li a {
     display: block;
 }
 nav a:hover {
-	background-color: #5f506b;
-	color: #f4f4f4;
+	background-color: #e2c752;
+	color: #393d3f;
 }
 .active {
     color: #f4f4f4;
