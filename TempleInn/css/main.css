@@ -129,8 +129,10 @@ main {
     border: solid 2px #393d3f;
     border-radius: 5px;
 }*/
-.container {
+.flex-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .info {
     display: flex;
