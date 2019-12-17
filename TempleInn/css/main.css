@@ -129,6 +129,9 @@ main {
     border: solid 2px #393d3f;
     border-radius: 5px;
 }*/
+.container {
+    display: flex;
+}
 .info {
     display: flex;
     padding: 10px; 
