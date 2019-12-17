@@ -84,7 +84,6 @@ nav a:hover {
   bottom: 50%;
 }
 main {
-    display: flex;
     font-size: 1rem;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
