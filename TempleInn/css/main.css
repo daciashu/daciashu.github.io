@@ -110,6 +110,8 @@ main {
 	background-color: #f4f4f4;
     color: #393d3f;
     text-align: left;
+    border: solid 2px #393d3f;
+    border-radius: 5px;
 }
 .map {
     display: none;
