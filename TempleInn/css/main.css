@@ -87,7 +87,7 @@ main {
     font-size: 1rem;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
-    max-width: 900px;
+    max-width: 1200px;
     margin: auto;
     color: #393d3f;
     padding: 20px;
@@ -136,8 +136,20 @@ main {
     padding: 15px;
 }
 .temple-container {
-    width: 900px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     padding: 20px;
+    justify-content: center;
+}
+.temple-block {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    padding: 10px;
+    border: thin solid #e2c752;
+    border-radius: 15px;
+    margin: 10px;
 }
 .templeText {
     width: 50%;
