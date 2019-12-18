@@ -139,26 +139,19 @@ main {
     width: 900px;
     padding: 20px;
 }
-.templeTextR {
+.templeText {
     width: 50%;
     text-align: left;
     float: right;
 }
-.templeTextL {
-    width: 50%;
-    text-align: left;
-    float: left;
-}
-.templePicsL {
+
+.templePics {
     max-width: 45%;
     float: left;
-}
-.templePicsR {
-    max-width: 45%;
-    float: right;
 }
 .templeInfo {
     list-style: none;
+    font-size: small;  
 }
 .info {
     display: flex;

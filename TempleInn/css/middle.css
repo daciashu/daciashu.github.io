@@ -24,8 +24,32 @@
     .navigation li:first-child {
         display: none;
     }
+    .temple-container {
+        width: 1200px;
+        padding: 20px;
+        
+    }
+    .temple-block {
+        display: flex;
+        max-width: 850px;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        border: thin solid #e2c752;
+        border-radius: 15px;
+        margin: 15px;
+    }
+    .templeText {
+        width: 40%;
+        text-align: left;
+    }
+    .templePics {
+        max-width: 55%;
+        padding: 5px;
+    }
     .map {
         display: flex;
         padding: 10px;
     }
+
 }
