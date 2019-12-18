@@ -140,21 +140,21 @@ main {
     padding: 20px;
 }
 .templeTextR {
-    max-width: 400px;
+    width: 50%;
     text-align: left;
     float: right;
 }
 .templeTextL {
-    max-width: 400px;
+    width: 50%;
     text-align: left;
     float: left;
 }
 .templePicsL {
-    max-width: 400px;
+    max-width: 45%;
     float: left;
 }
 .templePicsR {
-    max-width: 400px;
+    max-width: 45%;
     float: right;
 }
 .templeInfo {
