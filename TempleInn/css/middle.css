@@ -30,14 +30,10 @@
         
     }
     .temple-block {
-        display: flex;
         flex-direction: row;
-        max-width: 850px;
         align-items: center;
         justify-content: center;
         padding: 20px;
-        border: thin solid #e2c752;
-        border-radius: 15px;
         margin: 15px;
     }
     .templeText {
