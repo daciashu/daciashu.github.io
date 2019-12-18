@@ -135,8 +135,26 @@ main {
     justify-content: center;
     padding: 15px;
 }
-.templeText {
+.temple-container {
+    width: 900px;
+}
+.templeTextR {
+    max-width: 400px;
     text-align: left;
+    float: right;
+}
+.templeTextL {
+    max-width: 400px;
+    text-align: left;
+    float: left;
+}
+.templePicsL {
+    max-width: 400px;
+    float: left;
+}
+.templePicsR {
+    max-width: 400px;
+    float: right;
 }
 .templeInfo {
     list-style: none;
