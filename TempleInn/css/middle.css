@@ -27,11 +27,11 @@
     .temple-container {
         width: 1200px;
         padding: 20px;
-        flex-direction: row;
         
     }
     .temple-block {
         display: flex;
+        flex-direction: row;
         max-width: 850px;
         align-items: center;
         justify-content: center;
