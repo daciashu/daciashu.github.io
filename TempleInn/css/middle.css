@@ -43,6 +43,7 @@
     .templePics {
         max-width: 55%;
         padding: 5px;
+        margin-left: -35px;
     }
     .map {
         display: flex;
