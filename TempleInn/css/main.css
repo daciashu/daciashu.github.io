@@ -135,6 +135,9 @@ main {
     justify-content: center;
     padding: 15px;
 }
+.templeText {
+    text-align: left;
+}
 .info {
     display: flex;
     padding: 10px; 
