@@ -137,6 +137,7 @@ main {
 }
 .temple-container {
     width: 900px;
+    padding: 20px;
 }
 .templeTextR {
     max-width: 400px;
