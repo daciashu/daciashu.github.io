@@ -27,6 +27,7 @@
     .temple-container {
         width: 1200px;
         padding: 20px;
+        flex-direction: row;
         
     }
     .temple-block {
