@@ -1,0 +1,70 @@
+{
+
+"closures": [{
+    "name": "Paris",
+    "closed": [ 
+        "24 December 2019 - 26 December 2019",
+    "31 December 2019 - 2 January 2020",
+    "13 January 2020 - 27 January 2020",
+    "4 April 2020",
+    "8 June 2020 - 22 June 2020",
+    "3 October 2020",
+    "24 December 2020 - 26 December 2020",
+    "31 December 2020 - 2 January 2021" 
+]
+},
+{
+    "name": "Toronto",
+    "closed": [ 
+        "24 December 2019",
+    "25 December 2019 - 26 December 2019",
+    "31 December 2019",
+    "1 January 2020",
+    "24 February 2020 - 16 March 2020",
+    "4 April 2020",
+    "1 July 2020",
+    "17 August 2020 - 31 August 2020",
+    "3 October 2020",
+    "24 December 2020 - 26 December 2020",
+    "31 December 2020"
+    ]
+  },
+  {
+  "name": "Kyiv",
+  "closed": [
+    "25 December 2019",
+    "1 January 2020",
+    "3 February 2020 - 17 February 2020",
+    "1 September 2020 - 14 September 2020",
+    "25 December 2020"
+  ]
+  },
+  {
+      "name": "Rome",
+      "closed": [
+        "24 December 2019 - 26 December 2019",
+        "31 December 2019 - 1 January 2020",
+        "23 March 2020 - 6 April 2020",
+        "21 September 2020 - 5 October 2020",
+        "24 December 2020 - 26 December 2020",
+        "31 December 2020 - 1 January 2021"
+      ]
+    },
+    {
+        "name": "Madrid",
+        "closed": [
+            "24 December 2019",
+            "25 December 2019",
+            "31 December 2019",
+            "1 January 2020",
+            "6 January 2020 - 20 January 2020",
+            "4 April 2020 (Limited Hours)",
+            "1 June 2020 - 15 June 2020",
+            "3 October 2020 (Limited Hours)",
+            "24 December 2020",
+            "25 December 2020",
+            "31 December 2020"
+        ]
+    }
+ ]
+}
