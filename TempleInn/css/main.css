@@ -138,6 +138,9 @@ main {
 .templeText {
     text-align: left;
 }
+.templeInfo {
+    list-style: none;
+}
 .info {
     display: flex;
     padding: 10px; 
