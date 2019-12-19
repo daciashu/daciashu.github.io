@@ -216,7 +216,8 @@ ul {
     display: none;
 }
 .contact-info {
-    padding: 10px;
+    padding: 20px;
+    align-items: center;
 }
 .socialLogo {
     max-width: 50px;
