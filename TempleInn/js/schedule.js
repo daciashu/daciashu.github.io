@@ -12,14 +12,14 @@ fetch(scheduleURL)
             if (closedTemple.includes(closed[i].name)) {
                 let card = document.createElement('div');
                 let cardData = document.createElement('div');
-                let p1 = document.createElement('span');
-                let p2 = document.createElement('span');
-                let p3 = document.createElement('span');
-                let p4 = document.createElement('span');
-                let p5 = document.createElement('span');
-                let p6 = document.createElement('span');
-                let p7 = document.createElement('span');
-                let p8 = document.createElement('span');
+                let p1 = document.createElement('p');
+                let p2 = document.createElement('p');
+                let p3 = document.createElement('p');
+                let p4 = document.createElement('p');
+                let p5 = document.createElement('p');
+                let p6 = document.createElement('p');
+                let p7 = document.createElement('p');
+                let p8 = document.createElement('p');
     
                 cardData.className = 'temple-closures';
     
