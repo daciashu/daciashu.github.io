@@ -92,6 +92,10 @@ main {
     color: #393d3f;
     padding: 20px;
 }
+.main-container {
+    display: flex;
+    
+}
 .button {
     background-color: #5f506b;
     border: none;
