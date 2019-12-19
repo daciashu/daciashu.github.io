@@ -5,36 +5,45 @@ fetch(scheduleURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        const schedule = jsonObject['paris-schedule'];
-        const townEvents = ["Paris"]; 
+        const closed = jsonObject['closures'];
+        const closedTemple = ["Paris"]; 
 
-        for (let i=0; i < schedule.length; i++) {
-            if (townEvents.includes(schedule[i].name)) {
+        for (let i=0; i < closed.length; i++) {
+            if (closedTemple.includes(closed[i].name)) {
                 let card = document.createElement('div');
                 let cardData = document.createElement('div');
-                let h2 = document.createElement('h2');
-                let p1 = document.createElement('p');
-                let p2 = document.createElement('p');
-                let p3 = document.createElement('p');
-                let pic = document.createElement('img');
+                let p1 = document.createElement('span');
+                let p2 = document.createElement('span');
+                let p3 = document.createElement('span');
+                let p4 = document.createElement('span');
+                let p5 = document.createElement('span');
+                let p6 = document.createElement('span');
+                let p7 = document.createElement('span');
+                let p8 = document.createElement('span');
     
-                cardData.className = 'town-events';
+                cardData.className = 'temple-closures';
     
-                h2.textContent = 'Upcoming Events in ' + events[i].name;
-                p1.textContent = events[i].events[0];
-                p2.textContent = events[i].events[1];
-                p3.textContent = events[i].events[2];
-            pic.setAttribute('src', "images/napoleon500.jpg");
-            pic.setAttribute('alt', "A picture of the cast of Napoleon Dynamite");
+                p1.textContent = closed[i].closed[0];
+                p2.textContent = closed[i].closed[1];
+                p3.textContent = closed[i].closed[2];
+                p4.textContent = closed[i].closed[3];
+                p5.textContent = closed[i].closed[4];
+                p6.textContent = closed[i].closed[5];
+                p7.textContent = closed[i].closed[6];
+                p8.textContent = closed[i].closed[7];
+                
 
             card.appendChild(cardData);
-            card.appendChild(pic);
-            cardData.appendChild(h2);
             cardData.appendChild(p1);
             cardData.appendChild(p2);
             cardData.appendChild(p3);
+            cardData.appendChild(p4);
+            cardData.appendChild(p5);
+            cardData.appendChild(p6);
+            cardData.appendChild(p7);
+            cardData.appendChild(p8);
 
-            document.querySelector('div.events').appendChild(card);
+            document.querySelector('div.paris-closures').appendChild(card);
         }
       }
     });
