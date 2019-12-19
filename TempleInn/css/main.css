@@ -62,8 +62,8 @@ nav a:hover {
 	color: #393d3f;
 }
 .active {
-    color: #f4f4f4;
-    background-color: #393d3f;
+    color: #393d3f;
+    background-color: #cecece;
 }
 .sub-hero {
     position: relative;
