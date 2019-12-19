@@ -1,4 +1,4 @@
-const scheduleURL = 'https://daciashu.github.io/TempleInn/schedule.json'
+const scheduleURL = 'https://daciashu.github.io/TempleInn/schedule.json';
 
 fetch(scheduleURL)
     .then(function (response) {
