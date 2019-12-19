@@ -150,17 +150,17 @@ ul {
     flex-direction: column;
     max-width: 80%;
     padding: 10px;
-    border: thin solid #e2c752;
+    border: 2px solid #e2c752;
     border-radius: 15px;
     margin: 10px;
 }
 .templePics {
-    max-width: 45%;
-    float: left;
+    align-items: center;
 }
 .templeInfo {
     text-align: left;
     font-size: small;  
+    padding: 15px;
 }
 .info {
     display: flex;
@@ -200,8 +200,6 @@ ul {
     padding: 15px;
 }
 .closures {
-    border: thin solid #393d3f;
-    border-radius: 15px;
     padding: 15px;
 }
 .day {
