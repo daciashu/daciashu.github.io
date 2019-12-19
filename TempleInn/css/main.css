@@ -200,8 +200,10 @@ ul {
     font-size: small;
 }
 .temple-schedule {
-    list-style: none;
+    background-color: #e2c752;
+    
 }
+
 .day {
     font-weight: 700;
 }
