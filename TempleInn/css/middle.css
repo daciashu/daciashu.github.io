@@ -30,22 +30,38 @@
         
     }
     .temple-block {
-        align-items: left;
+        align-items: center;
         justify-content: center;
         padding: 20px;
         margin: 15px;
     }
-    .templeText {
-        width: 40%;
-        text-align: left;
+    .sessions {
+        width: 900px;
+       flex-direction: row;
+       background-color: #e2c752;
     }
     .templePics {
-        max-width: 55%;
-        padding: 5px;
-        margin-left: -35px;
+        margin-bottom: 10px;
+    }
+    .templeInfo {
+        color: #f4f4f4;
+        width: 60%;
+        padding: 20px;
+    }
+    .closures {
+        border-left: 4px solid #f4f4f4;
     }
     .info-block {
+        width: 900px;
         flex-direction: row;
+        background-color: #5f506b;
+        margin: 10px;
+    }
+    .weatherSummary {
+        width: 40%;
+        border-right: 3px solid #f4f4f4;
+        border-radius: 0px;
+        padding: 20px;
     }
     .map {
         display: flex;
