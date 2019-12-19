@@ -1,8 +1,8 @@
 //Current Weather
 
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=6539761&units=imperial&APPID=b199c77eadf38caf121ee3f836208d11";
+const RapiURL = "https://api.openweathermap.org/data/2.5/weather?id=6539761&units=imperial&APPID=b199c77eadf38caf121ee3f836208d11";
 
-fetch(apiURL)
+fetch(RapiURL)
     .then((response) => response.json())
     .then((jsObject) => {
         //console.log(jsObject);

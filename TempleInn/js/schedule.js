@@ -1,7 +1,7 @@
 //*Paris
-const scheduleURL = 'https://daciashu.github.io/TempleInn/schedule.json';
+const parisURL = 'https://daciashu.github.io/TempleInn/schedule.json';
 
-fetch(scheduleURL)
+fetch(parisURL)
     .then(function (response) {
         return response.json();
     })
@@ -50,9 +50,9 @@ fetch(scheduleURL)
     });
 
 //*Toronto
-const scheduleURL = 'https://daciashu.github.io/TempleInn/schedule.json';
+const torontoURL = 'https://daciashu.github.io/TempleInn/schedule.json';
 
-fetch(scheduleURL)
+fetch(torontoURL)
     .then(function (response) {
         return response.json();
     })
@@ -103,9 +103,9 @@ fetch(scheduleURL)
 
 
 //*Madrid
-const scheduleURL = 'https://daciashu.github.io/TempleInn/schedule.json';
+const madridURL = 'https://daciashu.github.io/TempleInn/schedule.json';
 
-fetch(scheduleURL)
+fetch(madridURL)
     .then(function (response) {
         return response.json();
     })
@@ -156,9 +156,9 @@ fetch(scheduleURL)
 
 
 //*Rome
-const scheduleURL = 'https://daciashu.github.io/TempleInn/schedule.json';
+const romeURL = 'https://daciashu.github.io/TempleInn/schedule.json';
 
-fetch(scheduleURL)
+fetch(romeURL)
     .then(function (response) {
         return response.json();
     })
@@ -209,9 +209,9 @@ fetch(scheduleURL)
 
 
 //*Kyiv
-const scheduleURL = 'https://daciashu.github.io/TempleInn/schedule.json';
+const kyivURL = 'https://daciashu.github.io/TempleInn/schedule.json';
 
-fetch(scheduleURL)
+fetch(kyivURL)
     .then(function (response) {
         return response.json();
     })
