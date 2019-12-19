@@ -199,6 +199,10 @@ main {
 .temple-schedule {
     list-style: none;
 }
+.info-block {
+    display: flex;
+    flex-direction: column;
+}
 .map {
     display: none;
 }
