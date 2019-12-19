@@ -94,7 +94,8 @@ main {
 }
 .main-container {
     display: flex;
-    
+    flex-direction: column;
+
 }
 .button {
     background-color: #5f506b;
