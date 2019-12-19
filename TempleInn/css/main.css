@@ -150,7 +150,7 @@ ul {
     flex-direction: column;
     max-width: 80%;
     padding: 10px;
-    border: thin solid #e2c752;
+    border: 3px solid #e2c752;
     border-radius: 15px;
     margin: 10px;
 }
@@ -223,6 +223,10 @@ ul {
 iframe {
     width: 400px;
     height: 300px;
+}
+.pre-footer {
+    display: flex;
+    text-align: left;
 }
 footer {
     font-family: 'Fira Sans', sans-serif;

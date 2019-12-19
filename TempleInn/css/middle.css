@@ -29,6 +29,9 @@
         padding: 20px;
         
     }
+    hr {
+        border-top: 2px solid #e2c752;
+    }
     .temple-block {
         align-items: center;
         justify-content: center;
@@ -66,6 +69,9 @@
     .map {
         display: flex;
         padding: 10px;
+    }
+    .pre-footer {
+        flex-direction: row;
     }
 
 }
