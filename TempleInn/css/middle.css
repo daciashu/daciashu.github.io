@@ -70,8 +70,5 @@
         display: flex;
         padding: 10px;
     }
-    .pre-footer {
-        flex-direction: row;
-    }
 
 }
