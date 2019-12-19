@@ -154,18 +154,12 @@ ul {
     border-radius: 15px;
     margin: 10px;
 }
-.templeText {
-    width: 50%;
-    text-align: left;
-    float: right;
-}
-
 .templePics {
     max-width: 45%;
     float: left;
 }
 .templeInfo {
-    list-style: none;
+    text-align: left;
     font-size: small;  
 }
 .info {
