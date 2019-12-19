@@ -201,9 +201,14 @@ ul {
 }
 .temple-schedule {
     background-color: #e2c752;
-    
+    border-radius: 15px;
+    padding: 15px;
 }
-
+.closures {
+    border: thin solid #393d3f;
+    border-radius: 15px;
+    padding: 15px;
+}
 .day {
     font-weight: 700;
 }
