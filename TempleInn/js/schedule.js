@@ -5,7 +5,6 @@ fetch(scheduleURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.log(jsObject);
         const closed = jsonObject['closures'];
         const closedTemple = ["Paris"]; 
 
