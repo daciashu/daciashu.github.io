@@ -1,6 +1,7 @@
 {
 
-  "closures": [{
+  "closures": [
+  {
       "name": "Paris",
       "closed": [
         "24 December 2019 - 26 December 2019",
@@ -12,7 +13,8 @@
         "24 December 2020 - 26 December 2020",
         "31 December 2020 - 2 January 2021"
       ]
-    },
+    } 
+    /*,
     {
       "name": "Toronto",
       "Tuesday": [
@@ -185,6 +187,6 @@
         "25 December 2020",
         "31 December 2020"
       ]
-    }
-  ]
-}
+    } */
+  ] 
+} 
