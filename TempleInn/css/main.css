@@ -104,31 +104,6 @@ main {
     margin: 4px 2px;
     cursor: pointer;
 }
-/*.box1, .box3, .box4 {
-    max-width: 920px;
-    margin: 1rem;
-    padding: 10px;
-}
-.box2 {
-    display: none;
-}
-.box3 {
-    display: block;
-    background-color: #393d3f;  
-}
-.temple {
-    color: #393d3f;
-    text-align: left;
-    padding: 10px;
-}
-.box4 {
-    display: block;
-	background-color: #f4f4f4;
-    color: #393d3f;
-    text-align: left;
-    border: solid 2px #393d3f;
-    border-radius: 5px;
-}*/
 .flex-container {
     display: flex;
     flex-wrap: wrap;
