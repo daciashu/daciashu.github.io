@@ -30,8 +30,7 @@
         
     }
     .temple-block {
-        flex-direction: row;
-        align-items: center;
+        align-items: left;
         justify-content: center;
         padding: 20px;
         margin: 15px;

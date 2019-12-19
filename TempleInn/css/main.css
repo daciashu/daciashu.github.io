@@ -186,15 +186,18 @@ main {
     font-size: larger;
   }
   .weatherSummary {
-      text-align: left;
+      text-align: center;
+      color: #f4f4f4;
       background-color: #5f506b;
-      opacity: .9;
+      border-radius: 15px;
       padding: 5px;
   }
 .sessions {
     text-align: left;
-    list-style: none;
     font-size: small;
+}
+.temple-schedule {
+    list-style: none;
 }
 .map {
     display: none;
@@ -211,7 +214,7 @@ iframe {
 }
 footer {
     font-family: 'Fira Sans', sans-serif;
-        font-weight: 300;
+    font-weight: 300;
     max-width: 900px;
     padding: 20px;
     margin: auto;
