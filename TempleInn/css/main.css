@@ -168,7 +168,6 @@ ul {
       text-align: left;
       color: #f4f4f4;
       background-color: #5f506b;
-      border-radius: 15px;
       padding: 15px;
   }
 .sessions {
@@ -178,7 +177,6 @@ ul {
 }
 .temple-schedule {
     background-color: #e2c752;
-    border-radius: 15px;
     padding: 15px;
 }
 .closures {
