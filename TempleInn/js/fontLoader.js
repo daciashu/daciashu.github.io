@@ -1,5 +1,5 @@
 WebFont.load({
     google: {
-        families: ['Berkshire Swash','Poppins']
+        families: ['Meddon','Fira Sans']
     }
 });
