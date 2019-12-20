@@ -142,6 +142,7 @@ ul {
 }
 .templeInfo {
     text-align: left;
+    font-size: small; 
     padding: 15px; 
 }
 .info {
@@ -166,17 +167,21 @@ ul {
   }
   .weatherSummary {
       text-align: left;
+      font-size: small;
       color: #f4f4f4;
       background-color: #5f506b;
+      border-radius: 15px;
       padding: 15px;
   }
 .sessions {
 	display: flex;
 	flex-direction:column;
     text-align: left;
+    font-size: small;
 }
 .temple-schedule {
     background-color: #e2c752;
+    border-radius: 15px;
     padding: 15px;
 }
 .closures {
